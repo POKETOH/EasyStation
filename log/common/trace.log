@@ -1,0 +1,194 @@
+2024-07-31 01:05:39.090 INFO  com.alibaba.nacos.client.env.SearchableProperties :197  main [32m                [0;39m properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+2024-07-31 01:05:39.093 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   main [32m                [0;39m Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2024-07-31 01:05:39.096 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   main [32m                [0;39m Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2024-07-31 01:05:39.116 INFO  org.hibernate.validator.internal.util.Version     :21   background-preinit [32m                [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2024-07-31 01:05:40.074 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   main [32m                [0;39m Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2024-07-31 01:05:40.074 INFO  com.alibaba.nacos.client.env.SearchableProperties :197  main [32m                [0;39m properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+2024-07-31 01:05:40.076 INFO  com.alibaba.nacos.client.utils.ParamUtil          :87   main [32m                [0;39m [settings] [req-serv] nacos-server port:8848
+2024-07-31 01:05:40.076 INFO  com.alibaba.nacos.client.utils.ParamUtil          :98   main [32m                [0;39m [settings] [http-client] connect timeout:1000
+2024-07-31 01:05:40.079 INFO  com.alibaba.nacos.client.utils.ParamUtil          :105  main [32m                [0;39m PER_TASK_CONFIG_SIZE: 3000.0
+2024-07-31 01:05:40.126 INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager   :56   main [32m                [0;39m [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2024-07-31 01:05:40.127 INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager   :56   main [32m                [0;39m [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2024-07-31 01:05:40.134 INFO  c.a.n.client.auth.ram.identify.CredentialWatcher  :165  main [32m                [0;39m null No credential found
+2024-07-31 01:05:40.321 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   main [32m                [0;39m Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2024-07-31 01:05:40.321 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   main [32m                [0;39m Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2024-07-31 01:05:40.350 INFO  c.a.n.client.config.impl.LocalConfigInfoProcessor :68   main [32m                [0;39m LOCAL_SNAPSHOT_PATH:C:\Users\28413\nacos\config
+2024-07-31 01:05:40.357 INFO  com.alibaba.nacos.common.remote.client            :94   main [32m                [0;39m [RpcClientFactory] create a new rpc client of e2bb115c-e88f-42e6-a8f1-9a98fc184057_config-0
+2024-07-31 01:05:40.379 INFO  com.alibaba.nacos.common.remote.client            :60   main [32m                [0;39m [e2bb115c-e88f-42e6-a8f1-9a98fc184057_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$676/0x00000007c07df7f0
+2024-07-31 01:05:40.379 INFO  com.alibaba.nacos.common.remote.client            :60   main [32m                [0;39m [e2bb115c-e88f-42e6-a8f1-9a98fc184057_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$677/0x00000007c07e0000
+2024-07-31 01:05:40.380 INFO  com.alibaba.nacos.common.remote.client            :60   main [32m                [0;39m [e2bb115c-e88f-42e6-a8f1-9a98fc184057_config-0] Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+2024-07-31 01:05:40.380 INFO  com.alibaba.nacos.common.remote.client            :60   main [32m                [0;39m [e2bb115c-e88f-42e6-a8f1-9a98fc184057_config-0] RpcClient init, ServerListFactory = com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+2024-07-31 01:05:40.393 INFO  com.alibaba.nacos.common.remote.client            :60   main [32m                [0;39m [e2bb115c-e88f-42e6-a8f1-9a98fc184057_config-0] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2024-07-31 01:05:41.838 INFO  com.alibaba.nacos.common.remote.client            :60   main [32m                [0;39m [e2bb115c-e88f-42e6-a8f1-9a98fc184057_config-0] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1722359141552_127.0.0.1_59901
+2024-07-31 01:05:41.839 INFO  com.alibaba.nacos.common.remote.client            :60   com.alibaba.nacos.client.remote.worker [32m                [0;39m [e2bb115c-e88f-42e6-a8f1-9a98fc184057_config-0] Notify connected event to listeners.
+2024-07-31 01:05:41.839 INFO  com.alibaba.nacos.client.config.impl.ClientWorker :638  com.alibaba.nacos.client.remote.worker [32m                [0;39m [e2bb115c-e88f-42e6-a8f1-9a98fc184057_config-0] Connected,notify listen context...
+2024-07-31 01:05:41.840 INFO  com.alibaba.nacos.common.remote.client            :60   main [32m                [0;39m [e2bb115c-e88f-42e6-a8f1-9a98fc184057_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2024-07-31 01:05:41.840 INFO  com.alibaba.nacos.common.remote.client            :60   main [32m                [0;39m [e2bb115c-e88f-42e6-a8f1-9a98fc184057_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$690/0x00000007c0982e48
+2024-07-31 01:05:41.929 INFO  com.alibaba.nacos.client.config.impl.Limiter      :62   main [32m                [0;39m limitTime:5.0
+2024-07-31 01:05:41.954 WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder :87   main [32m                [0;39m Ignore the empty nacos configuration and get it based on dataId[gateway] & group[DEFAULT_GROUP]
+2024-07-31 01:05:41.961 WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder :87   main [32m                [0;39m Ignore the empty nacos configuration and get it based on dataId[gateway.properties] & group[DEFAULT_GROUP]
+2024-07-31 01:05:41.966 WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder :87   main [32m                [0;39m Ignore the empty nacos configuration and get it based on dataId[gateway-dev.properties] & group[DEFAULT_GROUP]
+2024-07-31 01:05:41.966 INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration    :108  main [32m                [0;39m Located property source: [BootstrapPropertySource {name='bootstrapProperties-gateway-dev.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-gateway.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-gateway,DEFAULT_GROUP'}]
+2024-07-31 01:05:41.976 INFO  com.fugui.train.gateway.config.GateApplication    :636  main [32m                [0;39m The following 1 profile is active: "dev"
+2024-07-31 01:05:43.115 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   main [32m                [0;39m No MyBatis mapper was found in '[com.fugui.train.gateway.config]' package. Please check your configuration.
+2024-07-31 01:05:43.303 INFO  o.springframework.cloud.context.scope.GenericScope:282  main [32m                [0;39m BeanFactory id=b93da80e-7ddc-3b49-a6fd-badc53c836f5
+2024-07-31 01:05:44.716 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  main [32m                [0;39m Tomcat initialized with port(s): 8000 (http)
+2024-07-31 01:05:44.778 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  main [32m                [0;39m Initializing ProtocolHandler ["http-nio-8000"]
+2024-07-31 01:05:44.780 INFO  org.apache.catalina.core.StandardService          :173  main [32m                [0;39m Starting service [Tomcat]
+2024-07-31 01:05:44.781 INFO  org.apache.catalina.core.StandardEngine           :173  main [32m                [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-07-31 01:05:44.944 INFO  o.a.c.c.C.[Tomcat].[localhost].[/common]          :173  main [32m                [0;39m Initializing Spring embedded WebApplicationContext
+2024-07-31 01:05:44.946 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  main [32m                [0;39m Root WebApplicationContext: initialization completed in 2951 ms
+2024-07-31 01:05:45.218 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:592  main [32m                [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.cloud.gateway.config.GatewayClassPathWarningAutoConfiguration$SpringMvcFoundOnClasspathConfiguration': Failed to instantiate [org.springframework.cloud.gateway.config.GatewayClassPathWarningAutoConfiguration$SpringMvcFoundOnClasspathConfiguration]: Constructor threw exception
+2024-07-31 01:05:45.221 INFO  org.apache.catalina.core.StandardService          :173  main [32m                [0;39m Stopping service [Tomcat]
+2024-07-31 01:05:45.261 INFO  o.s.b.a.logging.ConditionEvaluationReportLogger   :82   main [32m                [0;39m 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-07-31 01:05:45.316 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   main [32m                [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Spring MVC found on classpath, which is incompatible with Spring Cloud Gateway.
+
+Action:
+
+Please set spring.main.web-application-type=reactive or remove spring-boot-starter-web dependency.
+
+2024-07-31 01:05:45.318 WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder  :102  Thread-11 [32m                [0;39m [HttpClientBeanHolder] Start destroying common HttpClient
+2024-07-31 01:05:45.320 WARN  com.alibaba.nacos.common.notify.NotifyCenter      :136  Thread-17 [32m                [0;39m [NotifyCenter] Start destroying Publisher
+2024-07-31 01:05:45.320 WARN  com.alibaba.nacos.common.notify.NotifyCenter      :153  Thread-17 [32m                [0;39m [NotifyCenter] Destruction of the end
+2024-07-31 01:05:45.320 WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder  :111  Thread-11 [32m                [0;39m [HttpClientBeanHolder] Destruction of the end
+2024-07-31 01:08:29.833 INFO  com.alibaba.nacos.client.env.SearchableProperties :197  main [32m                [0;39m properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+2024-07-31 01:08:29.836 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   main [32m                [0;39m Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2024-07-31 01:08:29.837 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   main [32m                [0;39m Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2024-07-31 01:08:29.855 INFO  org.hibernate.validator.internal.util.Version     :21   background-preinit [32m                [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2024-07-31 01:08:30.654 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   main [32m                [0;39m Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2024-07-31 01:08:30.655 INFO  com.alibaba.nacos.client.env.SearchableProperties :197  main [32m                [0;39m properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+2024-07-31 01:08:30.658 INFO  com.alibaba.nacos.client.utils.ParamUtil          :87   main [32m                [0;39m [settings] [req-serv] nacos-server port:8848
+2024-07-31 01:08:30.658 INFO  com.alibaba.nacos.client.utils.ParamUtil          :98   main [32m                [0;39m [settings] [http-client] connect timeout:1000
+2024-07-31 01:08:30.659 INFO  com.alibaba.nacos.client.utils.ParamUtil          :105  main [32m                [0;39m PER_TASK_CONFIG_SIZE: 3000.0
+2024-07-31 01:08:30.700 INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager   :56   main [32m                [0;39m [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2024-07-31 01:08:30.701 INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager   :56   main [32m                [0;39m [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2024-07-31 01:08:30.707 INFO  c.a.n.client.auth.ram.identify.CredentialWatcher  :165  main [32m                [0;39m null No credential found
+2024-07-31 01:08:30.861 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   main [32m                [0;39m Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2024-07-31 01:08:30.861 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   main [32m                [0;39m Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2024-07-31 01:08:30.884 INFO  c.a.n.client.config.impl.LocalConfigInfoProcessor :68   main [32m                [0;39m LOCAL_SNAPSHOT_PATH:C:\Users\28413\nacos\config
+2024-07-31 01:08:30.890 INFO  com.alibaba.nacos.common.remote.client            :94   main [32m                [0;39m [RpcClientFactory] create a new rpc client of 2180480e-5bfe-496b-9c49-e71b9d97107f_config-0
+2024-07-31 01:08:30.915 INFO  com.alibaba.nacos.common.remote.client            :60   main [32m                [0;39m [2180480e-5bfe-496b-9c49-e71b9d97107f_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$675/0x00000007c07de8d8
+2024-07-31 01:08:30.916 INFO  com.alibaba.nacos.common.remote.client            :60   main [32m                [0;39m [2180480e-5bfe-496b-9c49-e71b9d97107f_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$676/0x00000007c07dee38
+2024-07-31 01:08:30.917 INFO  com.alibaba.nacos.common.remote.client            :60   main [32m                [0;39m [2180480e-5bfe-496b-9c49-e71b9d97107f_config-0] Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+2024-07-31 01:08:30.917 INFO  com.alibaba.nacos.common.remote.client            :60   main [32m                [0;39m [2180480e-5bfe-496b-9c49-e71b9d97107f_config-0] RpcClient init, ServerListFactory = com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+2024-07-31 01:08:30.930 INFO  com.alibaba.nacos.common.remote.client            :60   main [32m                [0;39m [2180480e-5bfe-496b-9c49-e71b9d97107f_config-0] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2024-07-31 01:08:32.154 INFO  com.alibaba.nacos.common.remote.client            :60   main [32m                [0;39m [2180480e-5bfe-496b-9c49-e71b9d97107f_config-0] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1722359311900_127.0.0.1_60161
+2024-07-31 01:08:32.155 INFO  com.alibaba.nacos.common.remote.client            :60   com.alibaba.nacos.client.remote.worker [32m                [0;39m [2180480e-5bfe-496b-9c49-e71b9d97107f_config-0] Notify connected event to listeners.
+2024-07-31 01:08:32.156 INFO  com.alibaba.nacos.client.config.impl.ClientWorker :638  com.alibaba.nacos.client.remote.worker [32m                [0;39m [2180480e-5bfe-496b-9c49-e71b9d97107f_config-0] Connected,notify listen context...
+2024-07-31 01:08:32.156 INFO  com.alibaba.nacos.common.remote.client            :60   main [32m                [0;39m [2180480e-5bfe-496b-9c49-e71b9d97107f_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2024-07-31 01:08:32.156 INFO  com.alibaba.nacos.common.remote.client            :60   main [32m                [0;39m [2180480e-5bfe-496b-9c49-e71b9d97107f_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$689/0x00000007c0982660
+2024-07-31 01:08:32.229 INFO  com.alibaba.nacos.client.config.impl.Limiter      :62   main [32m                [0;39m limitTime:5.0
+2024-07-31 01:08:32.250 WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder :87   main [32m                [0;39m Ignore the empty nacos configuration and get it based on dataId[gateway] & group[DEFAULT_GROUP]
+2024-07-31 01:08:32.256 WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder :87   main [32m                [0;39m Ignore the empty nacos configuration and get it based on dataId[gateway.properties] & group[DEFAULT_GROUP]
+2024-07-31 01:08:32.259 WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder :87   main [32m                [0;39m Ignore the empty nacos configuration and get it based on dataId[gateway-dev.properties] & group[DEFAULT_GROUP]
+2024-07-31 01:08:32.260 INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration    :108  main [32m                [0;39m Located property source: [BootstrapPropertySource {name='bootstrapProperties-gateway-dev.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-gateway.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-gateway,DEFAULT_GROUP'}]
+2024-07-31 01:08:32.267 INFO  com.fugui.train.gateway.config.GateApplication    :636  main [32m                [0;39m The following 1 profile is active: "dev"
+2024-07-31 01:08:33.161 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   main [32m                [0;39m No MyBatis mapper was found in '[com.fugui.train.gateway.config]' package. Please check your configuration.
+2024-07-31 01:08:33.322 INFO  o.springframework.cloud.context.scope.GenericScope:282  main [32m                [0;39m BeanFactory id=c4939d50-6a06-3919-b7d0-a8aa52e02035
+2024-07-31 01:08:33.778 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:409  main [32m                [0;39m Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-31 01:08:33.780 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:409  main [32m                [0;39m Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-31 01:08:33.794 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:409  main [32m                [0;39m Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-31 01:08:34.261 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  main [32m                [0;39m Tomcat initialized with port(s): 8000 (http)
+2024-07-31 01:08:34.291 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  main [32m                [0;39m Initializing ProtocolHandler ["http-nio-8000"]
+2024-07-31 01:08:34.292 INFO  org.apache.catalina.core.StandardService          :173  main [32m                [0;39m Starting service [Tomcat]
+2024-07-31 01:08:34.293 INFO  org.apache.catalina.core.StandardEngine           :173  main [32m                [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-07-31 01:08:34.403 INFO  o.a.c.c.C.[Tomcat].[localhost].[/common]          :173  main [32m                [0;39m Initializing Spring embedded WebApplicationContext
+2024-07-31 01:08:34.404 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  main [32m                [0;39m Root WebApplicationContext: initialization completed in 2124 ms
+2024-07-31 01:08:34.622 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:592  main [32m                [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.cloud.gateway.config.GatewayClassPathWarningAutoConfiguration$SpringMvcFoundOnClasspathConfiguration': Failed to instantiate [org.springframework.cloud.gateway.config.GatewayClassPathWarningAutoConfiguration$SpringMvcFoundOnClasspathConfiguration]: Constructor threw exception
+2024-07-31 01:08:34.624 INFO  org.apache.catalina.core.StandardService          :173  main [32m                [0;39m Stopping service [Tomcat]
+2024-07-31 01:08:34.650 INFO  o.s.b.a.logging.ConditionEvaluationReportLogger   :82   main [32m                [0;39m 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-07-31 01:08:34.677 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   main [32m                [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Spring MVC found on classpath, which is incompatible with Spring Cloud Gateway.
+
+Action:
+
+Please set spring.main.web-application-type=reactive or remove spring-boot-starter-web dependency.
+
+2024-07-31 01:08:34.680 WARN  com.alibaba.nacos.common.notify.NotifyCenter      :136  Thread-17 [32m                [0;39m [NotifyCenter] Start destroying Publisher
+2024-07-31 01:08:34.680 WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder  :102  Thread-11 [32m                [0;39m [HttpClientBeanHolder] Start destroying common HttpClient
+2024-07-31 01:08:34.680 WARN  com.alibaba.nacos.common.notify.NotifyCenter      :153  Thread-17 [32m                [0;39m [NotifyCenter] Destruction of the end
+2024-07-31 01:10:33.376 INFO  com.alibaba.nacos.client.env.SearchableProperties :197  main [32m                [0;39m properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+2024-07-31 01:10:33.380 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   main [32m                [0;39m Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2024-07-31 01:10:33.382 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   main [32m                [0;39m Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2024-07-31 01:10:33.396 INFO  org.hibernate.validator.internal.util.Version     :21   background-preinit [32m                [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2024-07-31 01:10:34.303 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   main [32m                [0;39m Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2024-07-31 01:10:34.304 INFO  com.alibaba.nacos.client.env.SearchableProperties :197  main [32m                [0;39m properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+2024-07-31 01:10:34.306 INFO  com.alibaba.nacos.client.utils.ParamUtil          :87   main [32m                [0;39m [settings] [req-serv] nacos-server port:8848
+2024-07-31 01:10:34.307 INFO  com.alibaba.nacos.client.utils.ParamUtil          :98   main [32m                [0;39m [settings] [http-client] connect timeout:1000
+2024-07-31 01:10:34.308 INFO  com.alibaba.nacos.client.utils.ParamUtil          :105  main [32m                [0;39m PER_TASK_CONFIG_SIZE: 3000.0
+2024-07-31 01:10:34.346 INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager   :56   main [32m                [0;39m [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2024-07-31 01:10:34.346 INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager   :56   main [32m                [0;39m [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2024-07-31 01:10:34.351 INFO  c.a.n.client.auth.ram.identify.CredentialWatcher  :165  main [32m                [0;39m null No credential found
+2024-07-31 01:10:34.496 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   main [32m                [0;39m Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2024-07-31 01:10:34.497 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   main [32m                [0;39m Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2024-07-31 01:10:34.517 INFO  c.a.n.client.config.impl.LocalConfigInfoProcessor :68   main [32m                [0;39m LOCAL_SNAPSHOT_PATH:C:\Users\28413\nacos\config
+2024-07-31 01:10:34.523 INFO  com.alibaba.nacos.common.remote.client            :94   main [32m                [0;39m [RpcClientFactory] create a new rpc client of a01522b5-13c2-4914-af23-40554ec5c945_config-0
+2024-07-31 01:10:34.546 INFO  com.alibaba.nacos.common.remote.client            :60   main [32m                [0;39m [a01522b5-13c2-4914-af23-40554ec5c945_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$676/0x00000007c07dadd0
+2024-07-31 01:10:34.546 INFO  com.alibaba.nacos.common.remote.client            :60   main [32m                [0;39m [a01522b5-13c2-4914-af23-40554ec5c945_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$677/0x00000007c07db330
+2024-07-31 01:10:34.547 INFO  com.alibaba.nacos.common.remote.client            :60   main [32m                [0;39m [a01522b5-13c2-4914-af23-40554ec5c945_config-0] Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+2024-07-31 01:10:34.548 INFO  com.alibaba.nacos.common.remote.client            :60   main [32m                [0;39m [a01522b5-13c2-4914-af23-40554ec5c945_config-0] RpcClient init, ServerListFactory = com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+2024-07-31 01:10:34.562 INFO  com.alibaba.nacos.common.remote.client            :60   main [32m                [0;39m [a01522b5-13c2-4914-af23-40554ec5c945_config-0] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2024-07-31 01:10:35.730 INFO  com.alibaba.nacos.common.remote.client            :60   main [32m                [0;39m [a01522b5-13c2-4914-af23-40554ec5c945_config-0] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1722359435487_127.0.0.1_60274
+2024-07-31 01:10:35.732 INFO  com.alibaba.nacos.common.remote.client            :60   com.alibaba.nacos.client.remote.worker [32m                [0;39m [a01522b5-13c2-4914-af23-40554ec5c945_config-0] Notify connected event to listeners.
+2024-07-31 01:10:35.732 INFO  com.alibaba.nacos.client.config.impl.ClientWorker :638  com.alibaba.nacos.client.remote.worker [32m                [0;39m [a01522b5-13c2-4914-af23-40554ec5c945_config-0] Connected,notify listen context...
+2024-07-31 01:10:35.732 INFO  com.alibaba.nacos.common.remote.client            :60   main [32m                [0;39m [a01522b5-13c2-4914-af23-40554ec5c945_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2024-07-31 01:10:35.733 INFO  com.alibaba.nacos.common.remote.client            :60   main [32m                [0;39m [a01522b5-13c2-4914-af23-40554ec5c945_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$690/0x00000007c097e5f0
+2024-07-31 01:10:35.810 INFO  com.alibaba.nacos.client.config.impl.Limiter      :62   main [32m                [0;39m limitTime:5.0
+2024-07-31 01:10:35.841 WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder :87   main [32m                [0;39m Ignore the empty nacos configuration and get it based on dataId[gateway] & group[DEFAULT_GROUP]
+2024-07-31 01:10:35.846 WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder :87   main [32m                [0;39m Ignore the empty nacos configuration and get it based on dataId[gateway.properties] & group[DEFAULT_GROUP]
+2024-07-31 01:10:35.850 WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder :87   main [32m                [0;39m Ignore the empty nacos configuration and get it based on dataId[gateway-dev.properties] & group[DEFAULT_GROUP]
+2024-07-31 01:10:35.851 INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration    :108  main [32m                [0;39m Located property source: [BootstrapPropertySource {name='bootstrapProperties-gateway-dev.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-gateway.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-gateway,DEFAULT_GROUP'}]
+2024-07-31 01:10:35.858 INFO  com.fugui.train.gateway.config.GateApplication    :636  main [32m                [0;39m The following 1 profile is active: "dev"
+2024-07-31 01:10:36.788 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   main [32m                [0;39m No MyBatis mapper was found in '[com.fugui.train.gateway.config]' package. Please check your configuration.
+2024-07-31 01:10:36.959 INFO  o.springframework.cloud.context.scope.GenericScope:282  main [32m                [0;39m BeanFactory id=c4939d50-6a06-3919-b7d0-a8aa52e02035
+2024-07-31 01:10:37.495 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:409  main [32m                [0;39m Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-31 01:10:37.497 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:409  main [32m                [0;39m Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-31 01:10:37.498 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:409  main [32m                [0;39m Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-31 01:10:37.972 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  main [32m                [0;39m Tomcat initialized with port(s): 8000 (http)
+2024-07-31 01:10:38.004 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  main [32m                [0;39m Initializing ProtocolHandler ["http-nio-8000"]
+2024-07-31 01:10:38.004 INFO  org.apache.catalina.core.StandardService          :173  main [32m                [0;39m Starting service [Tomcat]
+2024-07-31 01:10:38.005 INFO  org.apache.catalina.core.StandardEngine           :173  main [32m                [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-07-31 01:10:38.115 INFO  o.a.c.c.C.[Tomcat].[localhost].[/common]          :173  main [32m                [0;39m Initializing Spring embedded WebApplicationContext
+2024-07-31 01:10:38.116 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  main [32m                [0;39m Root WebApplicationContext: initialization completed in 2243 ms
+2024-07-31 01:10:38.327 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:592  main [32m                [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.cloud.gateway.config.GatewayClassPathWarningAutoConfiguration$SpringMvcFoundOnClasspathConfiguration': Failed to instantiate [org.springframework.cloud.gateway.config.GatewayClassPathWarningAutoConfiguration$SpringMvcFoundOnClasspathConfiguration]: Constructor threw exception
+2024-07-31 01:10:38.329 INFO  org.apache.catalina.core.StandardService          :173  main [32m                [0;39m Stopping service [Tomcat]
+2024-07-31 01:10:38.354 INFO  o.s.b.a.logging.ConditionEvaluationReportLogger   :82   main [32m                [0;39m 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-07-31 01:10:38.389 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   main [32m                [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Spring MVC found on classpath, which is incompatible with Spring Cloud Gateway.
+
+Action:
+
+Please set spring.main.web-application-type=reactive or remove spring-boot-starter-web dependency.
+
+2024-07-31 01:10:38.391 WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder  :102  Thread-11 [32m                [0;39m [HttpClientBeanHolder] Start destroying common HttpClient
+2024-07-31 01:10:38.391 WARN  com.alibaba.nacos.common.notify.NotifyCenter      :136  Thread-17 [32m                [0;39m [NotifyCenter] Start destroying Publisher
+2024-07-31 01:10:38.391 WARN  com.alibaba.nacos.common.notify.NotifyCenter      :153  Thread-17 [32m                [0;39m [NotifyCenter] Destruction of the end
+2024-07-31 01:10:38.392 WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder  :111  Thread-11 [32m                [0;39m [HttpClientBeanHolder] Destruction of the end

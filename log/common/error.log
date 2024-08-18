@@ -1,0 +1,42 @@
+2024-07-31 01:05:45.316 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   main [32m                [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Spring MVC found on classpath, which is incompatible with Spring Cloud Gateway.
+
+Action:
+
+Please set spring.main.web-application-type=reactive or remove spring-boot-starter-web dependency.
+
+2024-07-31 01:08:34.677 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   main [32m                [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Spring MVC found on classpath, which is incompatible with Spring Cloud Gateway.
+
+Action:
+
+Please set spring.main.web-application-type=reactive or remove spring-boot-starter-web dependency.
+
+2024-07-31 01:10:38.389 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   main [32m                [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Spring MVC found on classpath, which is incompatible with Spring Cloud Gateway.
+
+Action:
+
+Please set spring.main.web-application-type=reactive or remove spring-boot-starter-web dependency.
+

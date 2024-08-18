@@ -1,0 +1,1093 @@
+2024-07-27 20:33:18.510 INFO  o.a.c.c.C.[Tomcat].[localhost].[/batch]           :173  http-nio-8003-exec-2 [32m                [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-27 20:33:18.522 INFO  org.springframework.web.servlet.DispatcherServlet :525  http-nio-8003-exec-2 [32m                [0;39m Initializing Servlet 'dispatcherServlet'
+2024-07-27 20:33:18.563 INFO  org.springframework.web.servlet.DispatcherServlet :547  http-nio-8003-exec-2 [32m                [0;39m Completed initialization in 40 ms
+2024-07-27 20:33:18.678 INFO  com.fugui.train.common.aspect.LogAspect           :54   http-nio-8003-exec-2 [32m1722083598670hdv[0;39m ------------- 开始 -------------
+2024-07-27 20:33:18.679 INFO  com.fugui.train.common.aspect.LogAspect           :55   http-nio-8003-exec-2 [32m1722083598670hdv[0;39m 请求地址: http://127.0.0.1:8003/batch/admin/job/query GET
+2024-07-27 20:33:18.680 INFO  com.fugui.train.common.aspect.LogAspect           :56   http-nio-8003-exec-2 [32m1722083598670hdv[0;39m 类名方法: com.fugui.train.batch.controller.JobController.query
+2024-07-27 20:33:18.680 INFO  com.fugui.train.common.aspect.LogAspect           :57   http-nio-8003-exec-2 [32m1722083598670hdv[0;39m 远程地址: 127.0.0.1
+2024-07-27 20:33:18.780 INFO  com.fugui.train.common.aspect.LogAspect           :78   http-nio-8003-exec-2 [32m1722083598670hdv[0;39m 请求参数: []
+2024-07-27 20:33:18.781 INFO  com.fugui.train.batch.controller.JobController    :168  http-nio-8003-exec-2 [32m1722083598670hdv[0;39m 查看所有定时任务开始
+2024-07-27 20:33:18.876 INFO  com.fugui.train.batch.controller.JobController    :199  http-nio-8003-exec-2 [32m1722083598670hdv[0;39m 查看定时任务结束：CommonResp{success=true, message='null', content=[CronJobDto{cronExpression='0/5 * * * * ?', group='DEFAULT', name='com.fugui.train.batch.TestQuatrz', description='test', state='PAUSED', nextFireTime=Thu Jul 25 14:41:15 CST 2024, preFireTime=null}]}
+2024-07-27 20:33:18.943 INFO  com.fugui.train.common.aspect.LogAspect           :90   http-nio-8003-exec-2 [32m1722083598670hdv[0;39m 返回结果: {"content":[{"cronExpression":"0/5 * * * * ?","description":"test","group":"DEFAULT","name":"com.fugui.train.batch.TestQuatrz","nextFireTime":1721889675000,"state":"PAUSED"}],"success":true}
+2024-07-27 20:33:18.943 INFO  com.fugui.train.common.aspect.LogAspect           :91   http-nio-8003-exec-2 [32m1722083598670hdv[0;39m ------------- 结束 耗时：273 ms -------------
+2024-07-27 21:10:47.582 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   http-nio-8003-exec-1 [32m                [0;39m No MyBatis mapper was found in '[com.fugui.train.batch.mapper]' package. Please check your configuration.
+2024-07-27 21:16:24.744 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   http-nio-8003-exec-4 [32m                [0;39m No MyBatis mapper was found in '[com.fugui.train.batch.mapper]' package. Please check your configuration.
+2024-07-27 21:17:04.154 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   http-nio-8003-exec-10 [32m                [0;39m No MyBatis mapper was found in '[com.fugui.train.batch.mapper]' package. Please check your configuration.
+2024-07-27 21:17:47.168 INFO  org.quartz.core.QuartzScheduler                   :585  SpringApplicationShutdownHook [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2024-07-27 21:17:47.203 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :847  SpringApplicationShutdownHook [32m                [0;39m Shutting down Quartz Scheduler
+2024-07-27 21:17:47.204 INFO  org.quartz.core.QuartzScheduler                   :666  SpringApplicationShutdownHook [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutting down.
+2024-07-27 21:17:47.204 INFO  org.quartz.core.QuartzScheduler                   :585  SpringApplicationShutdownHook [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2024-07-27 21:17:47.204 INFO  org.quartz.core.QuartzScheduler                   :740  SpringApplicationShutdownHook [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutdown complete.
+2024-07-27 21:17:47.205 INFO  com.zaxxer.hikari.HikariDataSource                :350  SpringApplicationShutdownHook [32m                [0;39m HikariPool-1 - Shutdown initiated...
+2024-07-27 21:17:47.209 INFO  com.zaxxer.hikari.HikariDataSource                :352  SpringApplicationShutdownHook [32m                [0;39m HikariPool-1 - Shutdown completed.
+2024-07-27 21:17:52.703 INFO  o.s.b.devtools.restart.RestartApplicationListener :88   main [32m                [0;39m Restart disabled due to an agent-based reloader being active
+2024-07-27 21:17:53.163 INFO  org.hibernate.validator.internal.util.Version     :21   background-preinit [32m                [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2024-07-27 21:17:53.269 INFO  com.fugui.train.batch.config.BatchApplication     :51   main [32m                [0;39m Starting BatchApplication using Java 17.0.11 with PID 27560 (E:\Desktop\projectCode\12306\train\batch\target\classes started by 28413 in E:\Desktop\projectCode\12306\train)
+2024-07-27 21:17:53.270 INFO  com.fugui.train.batch.config.BatchApplication     :630  main [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-07-27 21:17:53.340 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  main [32m                [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-27 21:17:53.341 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  main [32m                [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-27 21:17:54.189 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   main [32m                [0;39m No MyBatis mapper was found in '[com.fugui.train.batch.mapper]' package. Please check your configuration.
+2024-07-27 21:17:54.306 INFO  o.springframework.cloud.context.scope.GenericScope:282  main [32m                [0;39m BeanFactory id=cb4a6480-c989-3556-8fc0-d51734467b94
+2024-07-27 21:17:54.365 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:409  main [32m                [0;39m Bean 'com.fugui.train.batch.feign.businessFeign' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-27 21:17:55.223 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  main [32m                [0;39m Tomcat initialized with port(s): 8003 (http)
+2024-07-27 21:17:55.236 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  main [32m                [0;39m Initializing ProtocolHandler ["http-nio-8003"]
+2024-07-27 21:17:55.236 INFO  org.apache.catalina.core.StandardService          :173  main [32m                [0;39m Starting service [Tomcat]
+2024-07-27 21:17:55.237 INFO  org.apache.catalina.core.StandardEngine           :173  main [32m                [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-07-27 21:17:55.303 INFO  o.a.c.c.C.[Tomcat].[localhost].[/batch]           :173  main [32m                [0;39m Initializing Spring embedded WebApplicationContext
+2024-07-27 21:17:55.304 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  main [32m                [0;39m Root WebApplicationContext: initialization completed in 1961 ms
+2024-07-27 21:17:55.423 WARN  o.s.core.LocalVariableTableParameterNameDiscoverer:123  main [32m                [0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.fugui.train.batch.config.SchedulerConfig
+2024-07-27 21:17:55.474 INFO  org.quartz.impl.StdSchedulerFactory               :1220 main [32m                [0;39m Using default implementation for ThreadExecutor
+2024-07-27 21:17:55.487 INFO  org.quartz.core.SchedulerSignalerImpl             :61   main [32m                [0;39m Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2024-07-27 21:17:55.488 INFO  org.quartz.core.QuartzScheduler                   :229  main [32m                [0;39m Quartz Scheduler v.2.3.2 created.
+2024-07-27 21:17:55.498 INFO  com.zaxxer.hikari.HikariDataSource                :110  main [32m                [0;39m HikariPool-1 - Starting...
+2024-07-27 21:17:55.697 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  main [32m                [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5002be8e
+2024-07-27 21:17:55.700 INFO  com.zaxxer.hikari.HikariDataSource                :123  main [32m                [0;39m HikariPool-1 - Start completed.
+2024-07-27 21:17:55.713 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :672  main [32m                [0;39m Using db table-based data access locking (synchronization).
+2024-07-27 21:17:55.716 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :145  main [32m                [0;39m JobStoreCMT initialized.
+2024-07-27 21:17:55.717 INFO  org.quartz.core.QuartzScheduler                   :294  main [32m                [0;39m Scheduler meta-data: Quartz Scheduler (v2.3.2) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is not clustered.
+
+2024-07-27 21:17:55.717 INFO  org.quartz.impl.StdSchedulerFactory               :1374 main [32m                [0;39m Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2024-07-27 21:17:55.717 INFO  org.quartz.impl.StdSchedulerFactory               :1378 main [32m                [0;39m Quartz scheduler version: 2.3.2
+2024-07-27 21:17:55.717 INFO  org.quartz.core.QuartzScheduler                   :2293 main [32m                [0;39m JobFactory set to: com.fugui.train.batch.config.MyJobFactory@1b881f1f
+2024-07-27 21:17:55.945 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   main [32m                [0;39m LiveReload server is running on port 35729
+2024-07-27 21:17:56.468 WARN  o.s.core.LocalVariableTableParameterNameDiscoverer:123  main [32m                [0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.github.pagehelper.autoconfigure.PageHelperStandardProperties
+2024-07-27 21:17:56.636 WARN  o.s.b.a.freemarker.FreeMarkerAutoConfiguration    :67   main [32m                [0;39m Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.check-template-location=false)
+2024-07-27 21:17:56.800 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:81   main [32m                [0;39m Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-07-27 21:17:56.846 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  main [32m                [0;39m Starting ProtocolHandler ["http-nio-8003"]
+2024-07-27 21:17:56.873 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  main [32m                [0;39m Tomcat started on port(s): 8003 (http) with context path '/batch'
+2024-07-27 21:17:56.928 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :734  main [32m                [0;39m Will start Quartz Scheduler [schedulerFactoryBean] in 2 seconds
+2024-07-27 21:17:56.935 INFO  com.fugui.train.batch.config.BatchApplication     :57   main [32m                [0;39m Started BatchApplication in 4.258 seconds (process running for 7.357)
+2024-07-27 21:17:56.939 INFO  com.fugui.train.batch.config.BatchApplication     :23   main [32m                [0;39m 启动成功
+2024-07-27 21:17:56.939 INFO  com.fugui.train.batch.config.BatchApplication     :24   main [32m                [0;39m 端口号：http://127.0.0.1:8003/batch
+2024-07-27 21:17:58.942 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :750  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Starting Quartz Scheduler now, after delay of 2 seconds
+2024-07-27 21:17:58.998 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :866  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Freed 0 triggers from 'acquired' / 'blocked' state.
+2024-07-27 21:17:59.001 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :876  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2024-07-27 21:17:59.001 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :889  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Recovery complete.
+2024-07-27 21:17:59.002 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :896  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Removed 0 'complete' triggers.
+2024-07-27 21:17:59.002 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :901  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Removed 0 stale fired job entries.
+2024-07-27 21:17:59.004 INFO  org.quartz.core.QuartzScheduler                   :547  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+2024-07-27 21:18:02.124 INFO  o.a.c.c.C.[Tomcat].[localhost].[/batch]           :173  http-nio-8003-exec-1 [32m                [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-27 21:18:02.124 INFO  org.springframework.web.servlet.DispatcherServlet :525  http-nio-8003-exec-1 [32m                [0;39m Initializing Servlet 'dispatcherServlet'
+2024-07-27 21:18:02.126 INFO  org.springframework.web.servlet.DispatcherServlet :547  http-nio-8003-exec-1 [32m                [0;39m Completed initialization in 1 ms
+2024-07-27 21:18:02.505 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :419  http-nio-8003-exec-1 [32m                [0;39m Failure in @ExceptionHandler com.fugui.train.common.controller.ControllerExceptionHandler#exceptionHandler(BindException)
+java.lang.IllegalStateException: Could not resolve parameter [0] in public com.fugui.train.common.commonResp.CommonResp com.fugui.train.common.controller.ControllerExceptionHandler.exceptionHandler(org.springframework.validation.BindException): No suitable resolver
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:178)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:148)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:413)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:74)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:141)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:80)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1340)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1151)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1097)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:895)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:705)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.__invoke(StandardContextValve.java:97)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:41002)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-07-27 21:18:02.511 ERROR o.a.c.c.C.[.[.[/batch].[dispatcherServlet]        :175  http-nio-8003-exec-1 [32m                [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/batch] threw exception [Request processing failed: feign.FeignException$NotFound: [404] during [GET] to [http://127.0.0.1:8002/business/hello] [businessFeign#hello()]: [{"timestamp":"2024-07-27T13:18:02.482+00:00","status":404,"error":"Not Found","message":"No message available","path":"/business/hello"}]] with root cause
+feign.FeignException$NotFound: [404] during [GET] to [http://127.0.0.1:8002/business/hello] [businessFeign#hello()]: [{"timestamp":"2024-07-27T13:18:02.482+00:00","status":404,"error":"Not Found","message":"No message available","path":"/business/hello"}]
+	at feign.FeignException.clientErrorStatus(FeignException.java:228)
+	at feign.FeignException.errorStatus(FeignException.java:203)
+	at feign.FeignException.errorStatus(FeignException.java:194)
+	at feign.FeignException.errorStatus(FeignException.java:171)
+	at feign.codec.ErrorDecoder$Default.decode(ErrorDecoder.java:92)
+	at feign.ResponseHandler.decodeError(ResponseHandler.java:136)
+	at feign.ResponseHandler.handleResponse(ResponseHandler.java:70)
+	at feign.SynchronousMethodHandler.executeAndDecode(SynchronousMethodHandler.java:116)
+	at feign.SynchronousMethodHandler.invoke(SynchronousMethodHandler.java:72)
+	at feign.ReflectiveFeign$FeignInvocationHandler.invoke(ReflectiveFeign.java:98)
+	at jdk.proxy2/jdk.proxy2.$Proxy95.hello(Unknown Source)
+	at com.fugui.train.batch.controller.Test.hello(Test.java:14)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:895)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:705)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.__invoke(StandardContextValve.java:97)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:41002)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-07-27 21:22:53.885 INFO  org.apache.coyote.http11.Http11Processor          :175  http-nio-8003-exec-2 [32m                [0;39m Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x030x010xbf0x010x000x010xbb0x030x030xd60xb90xc70xbd0xb50xff0xe7mXau0xf7.P0xbc0xe2)F0xa90xea0x15rq0xc80x8f0xc10xfb0xc3n0x94+t ]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:419)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:272)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-07-27 22:28:15.150 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   http-nio-8003-exec-7 [32m                [0;39m No MyBatis mapper was found in '[com.fugui.train.batch.mapper]' package. Please check your configuration.
+2024-07-27 22:28:15.334 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :419  http-nio-8003-exec-7 [32m                [0;39m Failure in @ExceptionHandler com.fugui.train.common.controller.ControllerExceptionHandler#exceptionHandler(BindException)
+java.lang.IllegalStateException: Could not resolve parameter [0] in public com.fugui.train.common.commonResp.CommonResp com.fugui.train.common.controller.ControllerExceptionHandler.exceptionHandler(org.springframework.validation.BindException): No suitable resolver
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:178)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:148)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:413)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:74)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:141)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:80)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1340)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1151)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1097)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:895)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:705)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.__invoke(StandardContextValve.java:97)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:41002)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-07-27 22:28:15.335 ERROR o.a.c.c.C.[.[.[/batch].[dispatcherServlet]        :175  http-nio-8003-exec-7 [32m                [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/batch] threw exception [Request processing failed: feign.FeignException$NotFound: [404] during [GET] to [http://127.0.0.1:8002/business/hello] [businessFeign#hello()]: [{"timestamp":"2024-07-27T14:28:15.260+00:00","status":404,"error":"Not Found","message":"No message available","path":"/business/hello"}]] with root cause
+feign.FeignException$NotFound: [404] during [GET] to [http://127.0.0.1:8002/business/hello] [businessFeign#hello()]: [{"timestamp":"2024-07-27T14:28:15.260+00:00","status":404,"error":"Not Found","message":"No message available","path":"/business/hello"}]
+	at feign.FeignException.clientErrorStatus(FeignException.java:228)
+	at feign.FeignException.errorStatus(FeignException.java:203)
+	at feign.FeignException.errorStatus(FeignException.java:194)
+	at feign.FeignException.errorStatus(FeignException.java:171)
+	at feign.codec.ErrorDecoder$Default.decode(ErrorDecoder.java:92)
+	at feign.ResponseHandler.decodeError(ResponseHandler.java:136)
+	at feign.ResponseHandler.handleResponse(ResponseHandler.java:70)
+	at feign.SynchronousMethodHandler.executeAndDecode(SynchronousMethodHandler.java:116)
+	at feign.SynchronousMethodHandler.invoke(SynchronousMethodHandler.java:72)
+	at feign.ReflectiveFeign$FeignInvocationHandler.invoke(ReflectiveFeign.java:98)
+	at jdk.proxy2/jdk.proxy2.$Proxy95.hello(Unknown Source)
+	at com.fugui.train.batch.controller.Test.hello(Test.java:14)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:895)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:705)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.__invoke(StandardContextValve.java:97)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:41002)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-07-27 22:28:58.593 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   http-nio-8003-exec-10 [32m                [0;39m No MyBatis mapper was found in '[com.fugui.train.batch.mapper]' package. Please check your configuration.
+2024-07-27 22:28:58.639 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :419  http-nio-8003-exec-10 [32m                [0;39m Failure in @ExceptionHandler com.fugui.train.common.controller.ControllerExceptionHandler#exceptionHandler(BindException)
+java.lang.IllegalStateException: Could not resolve parameter [0] in public com.fugui.train.common.commonResp.CommonResp com.fugui.train.common.controller.ControllerExceptionHandler.exceptionHandler(org.springframework.validation.BindException): No suitable resolver
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:178)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:148)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:413)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:74)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:141)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:80)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1340)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1151)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1097)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:895)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:705)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.__invoke(StandardContextValve.java:97)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:41002)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-07-27 22:28:58.640 ERROR o.a.c.c.C.[.[.[/batch].[dispatcherServlet]        :175  http-nio-8003-exec-10 [32m                [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/batch] threw exception [Request processing failed: feign.FeignException$NotFound: [404] during [GET] to [http://127.0.0.1:8002/business/hello] [businessFeign#hello()]: [{"timestamp":"2024-07-27T14:28:58.637+00:00","status":404,"error":"Not Found","message":"No message available","path":"/business/hello"}]] with root cause
+feign.FeignException$NotFound: [404] during [GET] to [http://127.0.0.1:8002/business/hello] [businessFeign#hello()]: [{"timestamp":"2024-07-27T14:28:58.637+00:00","status":404,"error":"Not Found","message":"No message available","path":"/business/hello"}]
+	at feign.FeignException.clientErrorStatus(FeignException.java:228)
+	at feign.FeignException.errorStatus(FeignException.java:203)
+	at feign.FeignException.errorStatus(FeignException.java:194)
+	at feign.FeignException.errorStatus(FeignException.java:171)
+	at feign.codec.ErrorDecoder$Default.decode(ErrorDecoder.java:92)
+	at feign.ResponseHandler.decodeError(ResponseHandler.java:136)
+	at feign.ResponseHandler.handleResponse(ResponseHandler.java:70)
+	at feign.SynchronousMethodHandler.executeAndDecode(SynchronousMethodHandler.java:116)
+	at feign.SynchronousMethodHandler.invoke(SynchronousMethodHandler.java:72)
+	at feign.ReflectiveFeign$FeignInvocationHandler.invoke(ReflectiveFeign.java:98)
+	at jdk.proxy2/jdk.proxy2.$Proxy95.hello(Unknown Source)
+	at com.fugui.train.batch.controller.Test.hello(Test.java:14)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:895)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:705)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.__invoke(StandardContextValve.java:97)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:41002)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-07-27 22:28:59.879 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :419  http-nio-8003-exec-1 [32m                [0;39m Failure in @ExceptionHandler com.fugui.train.common.controller.ControllerExceptionHandler#exceptionHandler(BindException)
+java.lang.IllegalStateException: Could not resolve parameter [0] in public com.fugui.train.common.commonResp.CommonResp com.fugui.train.common.controller.ControllerExceptionHandler.exceptionHandler(org.springframework.validation.BindException): No suitable resolver
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:178)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:148)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:413)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:74)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:141)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:80)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1340)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1151)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1097)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:895)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:705)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.__invoke(StandardContextValve.java:97)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:41002)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-07-27 22:28:59.880 ERROR o.a.c.c.C.[.[.[/batch].[dispatcherServlet]        :175  http-nio-8003-exec-1 [32m                [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/batch] threw exception [Request processing failed: feign.FeignException$NotFound: [404] during [GET] to [http://127.0.0.1:8002/business/hello] [businessFeign#hello()]: [{"timestamp":"2024-07-27T14:28:59.877+00:00","status":404,"error":"Not Found","message":"No message available","path":"/business/hello"}]] with root cause
+feign.FeignException$NotFound: [404] during [GET] to [http://127.0.0.1:8002/business/hello] [businessFeign#hello()]: [{"timestamp":"2024-07-27T14:28:59.877+00:00","status":404,"error":"Not Found","message":"No message available","path":"/business/hello"}]
+	at feign.FeignException.clientErrorStatus(FeignException.java:228)
+	at feign.FeignException.errorStatus(FeignException.java:203)
+	at feign.FeignException.errorStatus(FeignException.java:194)
+	at feign.FeignException.errorStatus(FeignException.java:171)
+	at feign.codec.ErrorDecoder$Default.decode(ErrorDecoder.java:92)
+	at feign.ResponseHandler.decodeError(ResponseHandler.java:136)
+	at feign.ResponseHandler.handleResponse(ResponseHandler.java:70)
+	at feign.SynchronousMethodHandler.executeAndDecode(SynchronousMethodHandler.java:116)
+	at feign.SynchronousMethodHandler.invoke(SynchronousMethodHandler.java:72)
+	at feign.ReflectiveFeign$FeignInvocationHandler.invoke(ReflectiveFeign.java:98)
+	at jdk.proxy2/jdk.proxy2.$Proxy95.hello(Unknown Source)
+	at com.fugui.train.batch.controller.Test.hello(Test.java:14)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:895)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:705)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.__invoke(StandardContextValve.java:97)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:41002)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-07-27 22:29:00.392 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :419  http-nio-8003-exec-2 [32m                [0;39m Failure in @ExceptionHandler com.fugui.train.common.controller.ControllerExceptionHandler#exceptionHandler(BindException)
+java.lang.IllegalStateException: Could not resolve parameter [0] in public com.fugui.train.common.commonResp.CommonResp com.fugui.train.common.controller.ControllerExceptionHandler.exceptionHandler(org.springframework.validation.BindException): No suitable resolver
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:178)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:148)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:413)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:74)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:141)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:80)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1340)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1151)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1097)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:895)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:705)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.__invoke(StandardContextValve.java:97)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:41002)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-07-27 22:29:00.393 ERROR o.a.c.c.C.[.[.[/batch].[dispatcherServlet]        :175  http-nio-8003-exec-2 [32m                [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/batch] threw exception [Request processing failed: feign.FeignException$NotFound: [404] during [GET] to [http://127.0.0.1:8002/business/hello] [businessFeign#hello()]: [{"timestamp":"2024-07-27T14:29:00.390+00:00","status":404,"error":"Not Found","message":"No message available","path":"/business/hello"}]] with root cause
+feign.FeignException$NotFound: [404] during [GET] to [http://127.0.0.1:8002/business/hello] [businessFeign#hello()]: [{"timestamp":"2024-07-27T14:29:00.390+00:00","status":404,"error":"Not Found","message":"No message available","path":"/business/hello"}]
+	at feign.FeignException.clientErrorStatus(FeignException.java:228)
+	at feign.FeignException.errorStatus(FeignException.java:203)
+	at feign.FeignException.errorStatus(FeignException.java:194)
+	at feign.FeignException.errorStatus(FeignException.java:171)
+	at feign.codec.ErrorDecoder$Default.decode(ErrorDecoder.java:92)
+	at feign.ResponseHandler.decodeError(ResponseHandler.java:136)
+	at feign.ResponseHandler.handleResponse(ResponseHandler.java:70)
+	at feign.SynchronousMethodHandler.executeAndDecode(SynchronousMethodHandler.java:116)
+	at feign.SynchronousMethodHandler.invoke(SynchronousMethodHandler.java:72)
+	at feign.ReflectiveFeign$FeignInvocationHandler.invoke(ReflectiveFeign.java:98)
+	at jdk.proxy2/jdk.proxy2.$Proxy95.hello(Unknown Source)
+	at com.fugui.train.batch.controller.Test.hello(Test.java:14)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:895)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:705)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.__invoke(StandardContextValve.java:97)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:41002)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-07-27 22:29:00.556 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :419  http-nio-8003-exec-3 [32m                [0;39m Failure in @ExceptionHandler com.fugui.train.common.controller.ControllerExceptionHandler#exceptionHandler(BindException)
+java.lang.IllegalStateException: Could not resolve parameter [0] in public com.fugui.train.common.commonResp.CommonResp com.fugui.train.common.controller.ControllerExceptionHandler.exceptionHandler(org.springframework.validation.BindException): No suitable resolver
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:178)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:148)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:413)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:74)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:141)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:80)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1340)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1151)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1097)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:895)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:705)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.__invoke(StandardContextValve.java:97)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:41002)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-07-27 22:29:00.556 ERROR o.a.c.c.C.[.[.[/batch].[dispatcherServlet]        :175  http-nio-8003-exec-3 [32m                [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/batch] threw exception [Request processing failed: feign.FeignException$NotFound: [404] during [GET] to [http://127.0.0.1:8002/business/hello] [businessFeign#hello()]: [{"timestamp":"2024-07-27T14:29:00.554+00:00","status":404,"error":"Not Found","message":"No message available","path":"/business/hello"}]] with root cause
+feign.FeignException$NotFound: [404] during [GET] to [http://127.0.0.1:8002/business/hello] [businessFeign#hello()]: [{"timestamp":"2024-07-27T14:29:00.554+00:00","status":404,"error":"Not Found","message":"No message available","path":"/business/hello"}]
+	at feign.FeignException.clientErrorStatus(FeignException.java:228)
+	at feign.FeignException.errorStatus(FeignException.java:203)
+	at feign.FeignException.errorStatus(FeignException.java:194)
+	at feign.FeignException.errorStatus(FeignException.java:171)
+	at feign.codec.ErrorDecoder$Default.decode(ErrorDecoder.java:92)
+	at feign.ResponseHandler.decodeError(ResponseHandler.java:136)
+	at feign.ResponseHandler.handleResponse(ResponseHandler.java:70)
+	at feign.SynchronousMethodHandler.executeAndDecode(SynchronousMethodHandler.java:116)
+	at feign.SynchronousMethodHandler.invoke(SynchronousMethodHandler.java:72)
+	at feign.ReflectiveFeign$FeignInvocationHandler.invoke(ReflectiveFeign.java:98)
+	at jdk.proxy2/jdk.proxy2.$Proxy95.hello(Unknown Source)
+	at com.fugui.train.batch.controller.Test.hello(Test.java:14)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:895)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:705)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.__invoke(StandardContextValve.java:97)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:41002)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-07-27 22:29:05.403 INFO  org.quartz.core.QuartzScheduler                   :585  SpringApplicationShutdownHook [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2024-07-27 22:29:05.431 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :847  SpringApplicationShutdownHook [32m                [0;39m Shutting down Quartz Scheduler
+2024-07-27 22:29:05.431 INFO  org.quartz.core.QuartzScheduler                   :666  SpringApplicationShutdownHook [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutting down.
+2024-07-27 22:29:05.432 INFO  org.quartz.core.QuartzScheduler                   :585  SpringApplicationShutdownHook [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2024-07-27 22:29:05.432 INFO  org.quartz.core.QuartzScheduler                   :740  SpringApplicationShutdownHook [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutdown complete.
+2024-07-27 22:29:05.432 INFO  com.zaxxer.hikari.HikariDataSource                :350  SpringApplicationShutdownHook [32m                [0;39m HikariPool-1 - Shutdown initiated...
+2024-07-27 22:29:05.438 INFO  com.zaxxer.hikari.HikariDataSource                :352  SpringApplicationShutdownHook [32m                [0;39m HikariPool-1 - Shutdown completed.
+2024-07-27 22:29:07.391 INFO  org.hibernate.validator.internal.util.Version     :21   background-preinit [32m                [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2024-07-27 22:29:07.419 INFO  com.fugui.train.batch.config.BatchApplication     :51   restartedMain [32m                [0;39m Starting BatchApplication using Java 17.0.11 with PID 28792 (E:\Desktop\projectCode\12306\train\batch\target\classes started by 28413 in E:\Desktop\projectCode\12306\train)
+2024-07-27 22:29:07.420 INFO  com.fugui.train.batch.config.BatchApplication     :630  restartedMain [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-07-27 22:29:07.453 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  restartedMain [32m                [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-27 22:29:07.453 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  restartedMain [32m                [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-27 22:29:07.992 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   restartedMain [32m                [0;39m No MyBatis mapper was found in '[com.fugui.train.batch.mapper]' package. Please check your configuration.
+2024-07-27 22:29:08.054 INFO  o.springframework.cloud.context.scope.GenericScope:282  restartedMain [32m                [0;39m BeanFactory id=cb4a6480-c989-3556-8fc0-d51734467b94
+2024-07-27 22:29:08.088 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:409  restartedMain [32m                [0;39m Bean 'com.fugui.train.batch.feign.businessFeign' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-27 22:29:08.594 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  restartedMain [32m                [0;39m Tomcat initialized with port(s): 8003 (http)
+2024-07-27 22:29:08.603 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Initializing ProtocolHandler ["http-nio-8003"]
+2024-07-27 22:29:08.604 INFO  org.apache.catalina.core.StandardService          :173  restartedMain [32m                [0;39m Starting service [Tomcat]
+2024-07-27 22:29:08.604 INFO  org.apache.catalina.core.StandardEngine           :173  restartedMain [32m                [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-07-27 22:29:08.654 INFO  o.a.c.c.C.[Tomcat].[localhost].[/batch]           :173  restartedMain [32m                [0;39m Initializing Spring embedded WebApplicationContext
+2024-07-27 22:29:08.654 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  restartedMain [32m                [0;39m Root WebApplicationContext: initialization completed in 1199 ms
+2024-07-27 22:29:08.754 WARN  o.s.core.LocalVariableTableParameterNameDiscoverer:123  restartedMain [32m                [0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.fugui.train.batch.config.SchedulerConfig
+2024-07-27 22:29:08.784 INFO  org.quartz.impl.StdSchedulerFactory               :1220 restartedMain [32m                [0;39m Using default implementation for ThreadExecutor
+2024-07-27 22:29:08.795 INFO  org.quartz.core.SchedulerSignalerImpl             :61   restartedMain [32m                [0;39m Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2024-07-27 22:29:08.795 INFO  org.quartz.core.QuartzScheduler                   :229  restartedMain [32m                [0;39m Quartz Scheduler v.2.3.2 created.
+2024-07-27 22:29:08.805 INFO  com.zaxxer.hikari.HikariDataSource                :110  restartedMain [32m                [0;39m HikariPool-1 - Starting...
+2024-07-27 22:29:09.032 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  restartedMain [32m                [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@d6b7506
+2024-07-27 22:29:09.033 INFO  com.zaxxer.hikari.HikariDataSource                :123  restartedMain [32m                [0;39m HikariPool-1 - Start completed.
+2024-07-27 22:29:09.041 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :672  restartedMain [32m                [0;39m Using db table-based data access locking (synchronization).
+2024-07-27 22:29:09.042 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :145  restartedMain [32m                [0;39m JobStoreCMT initialized.
+2024-07-27 22:29:09.043 INFO  org.quartz.core.QuartzScheduler                   :294  restartedMain [32m                [0;39m Scheduler meta-data: Quartz Scheduler (v2.3.2) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is not clustered.
+
+2024-07-27 22:29:09.043 INFO  org.quartz.impl.StdSchedulerFactory               :1374 restartedMain [32m                [0;39m Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2024-07-27 22:29:09.043 INFO  org.quartz.impl.StdSchedulerFactory               :1378 restartedMain [32m                [0;39m Quartz scheduler version: 2.3.2
+2024-07-27 22:29:09.043 INFO  org.quartz.core.QuartzScheduler                   :2293 restartedMain [32m                [0;39m JobFactory set to: com.fugui.train.batch.config.MyJobFactory@43ff9c5c
+2024-07-27 22:29:09.189 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   restartedMain [32m                [0;39m LiveReload server is running on port 35729
+2024-07-27 22:29:09.616 WARN  o.s.core.LocalVariableTableParameterNameDiscoverer:123  restartedMain [32m                [0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.github.pagehelper.autoconfigure.PageHelperStandardProperties
+2024-07-27 22:29:09.728 WARN  o.s.b.a.freemarker.FreeMarkerAutoConfiguration    :67   restartedMain [32m                [0;39m Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.check-template-location=false)
+2024-07-27 22:29:09.893 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:81   restartedMain [32m                [0;39m Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-07-27 22:29:09.927 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Starting ProtocolHandler ["http-nio-8003"]
+2024-07-27 22:29:09.940 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  restartedMain [32m                [0;39m Tomcat started on port(s): 8003 (http) with context path '/batch'
+2024-07-27 22:29:09.992 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :734  restartedMain [32m                [0;39m Will start Quartz Scheduler [schedulerFactoryBean] in 2 seconds
+2024-07-27 22:29:09.998 INFO  com.fugui.train.batch.config.BatchApplication     :57   restartedMain [32m                [0;39m Started BatchApplication in 2.9 seconds (process running for 3.638)
+2024-07-27 22:29:10.001 INFO  com.fugui.train.batch.config.BatchApplication     :23   restartedMain [32m                [0;39m 启动成功
+2024-07-27 22:29:10.001 INFO  com.fugui.train.batch.config.BatchApplication     :24   restartedMain [32m                [0;39m 端口号：http://127.0.0.1:8003/batch
+2024-07-27 22:29:11.999 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :750  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Starting Quartz Scheduler now, after delay of 2 seconds
+2024-07-27 22:29:12.034 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :866  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Freed 0 triggers from 'acquired' / 'blocked' state.
+2024-07-27 22:29:12.037 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :876  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2024-07-27 22:29:12.037 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :889  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Recovery complete.
+2024-07-27 22:29:12.037 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :896  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Removed 0 'complete' triggers.
+2024-07-27 22:29:12.038 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :901  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Removed 0 stale fired job entries.
+2024-07-27 22:29:12.039 INFO  org.quartz.core.QuartzScheduler                   :547  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+2024-07-27 22:29:19.964 INFO  o.a.c.c.C.[Tomcat].[localhost].[/batch]           :173  http-nio-8003-exec-1 [32m                [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-27 22:29:19.964 INFO  org.springframework.web.servlet.DispatcherServlet :525  http-nio-8003-exec-1 [32m                [0;39m Initializing Servlet 'dispatcherServlet'
+2024-07-27 22:29:19.965 INFO  org.springframework.web.servlet.DispatcherServlet :547  http-nio-8003-exec-1 [32m                [0;39m Completed initialization in 1 ms
+2024-07-27 22:37:44.262 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  File Watcher [32m                [0;39m Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2024-07-27 22:37:44.265 INFO  org.quartz.core.QuartzScheduler                   :585  Thread-5 [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2024-07-27 22:37:44.276 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-5 [32m                [0;39m Pausing ProtocolHandler ["http-nio-8003"]
+2024-07-27 22:37:44.276 INFO  org.apache.catalina.core.StandardService          :173  Thread-5 [32m                [0;39m Stopping service [Tomcat]
+2024-07-27 22:37:44.278 INFO  o.a.c.c.C.[Tomcat].[localhost].[/batch]           :173  Thread-5 [32m                [0;39m Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-07-27 22:37:44.281 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-5 [32m                [0;39m Stopping ProtocolHandler ["http-nio-8003"]
+2024-07-27 22:37:44.283 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-5 [32m                [0;39m Destroying ProtocolHandler ["http-nio-8003"]
+2024-07-27 22:37:44.289 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :847  Thread-5 [32m                [0;39m Shutting down Quartz Scheduler
+2024-07-27 22:37:44.289 INFO  org.quartz.core.QuartzScheduler                   :666  Thread-5 [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutting down.
+2024-07-27 22:37:44.289 INFO  org.quartz.core.QuartzScheduler                   :585  Thread-5 [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2024-07-27 22:37:44.290 INFO  org.quartz.core.QuartzScheduler                   :740  Thread-5 [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutdown complete.
+2024-07-27 22:37:44.290 INFO  com.zaxxer.hikari.HikariDataSource                :350  Thread-5 [32m                [0;39m HikariPool-1 - Shutdown initiated...
+2024-07-27 22:37:44.294 INFO  com.zaxxer.hikari.HikariDataSource                :352  Thread-5 [32m                [0;39m HikariPool-1 - Shutdown completed.
+2024-07-27 22:37:44.451 INFO  com.fugui.train.batch.config.BatchApplication     :51   restartedMain [32m                [0;39m Starting BatchApplication using Java 17.0.11 with PID 28792 (E:\Desktop\projectCode\12306\train\batch\target\classes started by 28413 in E:\Desktop\projectCode\12306\train)
+2024-07-27 22:37:44.451 INFO  com.fugui.train.batch.config.BatchApplication     :630  restartedMain [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-07-27 22:37:44.693 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   restartedMain [32m                [0;39m No MyBatis mapper was found in '[com.fugui.train.batch.mapper]' package. Please check your configuration.
+2024-07-27 22:37:44.705 INFO  o.springframework.cloud.context.scope.GenericScope:282  restartedMain [32m                [0;39m BeanFactory id=cb4a6480-c989-3556-8fc0-d51734467b94
+2024-07-27 22:37:44.715 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:409  restartedMain [32m                [0;39m Bean 'com.fugui.train.batch.feign.businessFeign' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-27 22:37:44.790 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  restartedMain [32m                [0;39m Tomcat initialized with port(s): 8003 (http)
+2024-07-27 22:37:44.790 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Initializing ProtocolHandler ["http-nio-8003"]
+2024-07-27 22:37:44.791 INFO  org.apache.catalina.core.StandardService          :173  restartedMain [32m                [0;39m Starting service [Tomcat]
+2024-07-27 22:37:44.791 INFO  org.apache.catalina.core.StandardEngine           :173  restartedMain [32m                [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-07-27 22:37:44.809 INFO  o.a.c.c.C.[Tomcat].[localhost].[/batch]           :173  restartedMain [32m                [0;39m Initializing Spring embedded WebApplicationContext
+2024-07-27 22:37:44.809 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  restartedMain [32m                [0;39m Root WebApplicationContext: initialization completed in 353 ms
+2024-07-27 22:37:44.839 WARN  o.s.core.LocalVariableTableParameterNameDiscoverer:123  restartedMain [32m                [0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.fugui.train.batch.config.SchedulerConfig
+2024-07-27 22:37:44.844 INFO  org.quartz.impl.StdSchedulerFactory               :1220 restartedMain [32m                [0;39m Using default implementation for ThreadExecutor
+2024-07-27 22:37:44.845 INFO  org.quartz.core.SchedulerSignalerImpl             :61   restartedMain [32m                [0;39m Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2024-07-27 22:37:44.845 INFO  org.quartz.core.QuartzScheduler                   :229  restartedMain [32m                [0;39m Quartz Scheduler v.2.3.2 created.
+2024-07-27 22:37:44.846 INFO  com.zaxxer.hikari.HikariDataSource                :110  restartedMain [32m                [0;39m HikariPool-2 - Starting...
+2024-07-27 22:37:44.857 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  restartedMain [32m                [0;39m HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3b9d3cb
+2024-07-27 22:37:44.857 INFO  com.zaxxer.hikari.HikariDataSource                :123  restartedMain [32m                [0;39m HikariPool-2 - Start completed.
+2024-07-27 22:37:44.857 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :672  restartedMain [32m                [0;39m Using db table-based data access locking (synchronization).
+2024-07-27 22:37:44.858 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :145  restartedMain [32m                [0;39m JobStoreCMT initialized.
+2024-07-27 22:37:44.858 INFO  org.quartz.core.QuartzScheduler                   :294  restartedMain [32m                [0;39m Scheduler meta-data: Quartz Scheduler (v2.3.2) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is not clustered.
+
+2024-07-27 22:37:44.858 INFO  org.quartz.impl.StdSchedulerFactory               :1374 restartedMain [32m                [0;39m Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2024-07-27 22:37:44.858 INFO  org.quartz.impl.StdSchedulerFactory               :1378 restartedMain [32m                [0;39m Quartz scheduler version: 2.3.2
+2024-07-27 22:37:44.858 INFO  org.quartz.core.QuartzScheduler                   :2293 restartedMain [32m                [0;39m JobFactory set to: com.fugui.train.batch.config.MyJobFactory@3a0e2176
+2024-07-27 22:37:44.928 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   restartedMain [32m                [0;39m LiveReload server is running on port 35729
+2024-07-27 22:37:45.134 WARN  o.s.core.LocalVariableTableParameterNameDiscoverer:123  restartedMain [32m                [0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.github.pagehelper.autoconfigure.PageHelperStandardProperties
+2024-07-27 22:37:45.176 WARN  o.s.b.a.freemarker.FreeMarkerAutoConfiguration    :67   restartedMain [32m                [0;39m Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.check-template-location=false)
+2024-07-27 22:37:45.314 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:81   restartedMain [32m                [0;39m Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-07-27 22:37:45.333 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Starting ProtocolHandler ["http-nio-8003"]
+2024-07-27 22:37:45.336 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  restartedMain [32m                [0;39m Tomcat started on port(s): 8003 (http) with context path '/batch'
+2024-07-27 22:37:45.393 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :734  restartedMain [32m                [0;39m Will start Quartz Scheduler [schedulerFactoryBean] in 2 seconds
+2024-07-27 22:37:45.397 INFO  com.fugui.train.batch.config.BatchApplication     :57   restartedMain [32m                [0;39m Started BatchApplication in 1.061 seconds (process running for 519.037)
+2024-07-27 22:37:45.398 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   restartedMain [32m                [0;39m Condition evaluation unchanged
+2024-07-27 22:37:45.399 INFO  com.fugui.train.batch.config.BatchApplication     :23   restartedMain [32m                [0;39m 启动成功
+2024-07-27 22:37:45.399 INFO  com.fugui.train.batch.config.BatchApplication     :24   restartedMain [32m                [0;39m 端口号：http://127.0.0.1:8003/batch
+2024-07-27 22:37:46.662 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  File Watcher [32m                [0;39m Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2024-07-27 22:37:46.672 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-11 [32m                [0;39m Pausing ProtocolHandler ["http-nio-8003"]
+2024-07-27 22:37:46.673 INFO  org.apache.catalina.core.StandardService          :173  Thread-11 [32m                [0;39m Stopping service [Tomcat]
+2024-07-27 22:37:46.674 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-11 [32m                [0;39m Stopping ProtocolHandler ["http-nio-8003"]
+2024-07-27 22:37:46.675 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-11 [32m                [0;39m Destroying ProtocolHandler ["http-nio-8003"]
+2024-07-27 22:37:46.677 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :847  Thread-11 [32m                [0;39m Shutting down Quartz Scheduler
+2024-07-27 22:37:46.677 INFO  org.quartz.core.QuartzScheduler                   :666  Thread-11 [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutting down.
+2024-07-27 22:37:46.677 INFO  org.quartz.core.QuartzScheduler                   :585  Thread-11 [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2024-07-27 22:37:46.677 INFO  org.quartz.core.QuartzScheduler                   :740  Thread-11 [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutdown complete.
+2024-07-27 22:37:46.677 INFO  com.zaxxer.hikari.HikariDataSource                :350  Thread-11 [32m                [0;39m HikariPool-2 - Shutdown initiated...
+2024-07-27 22:37:46.680 INFO  com.zaxxer.hikari.HikariDataSource                :352  Thread-11 [32m                [0;39m HikariPool-2 - Shutdown completed.
+2024-07-27 22:37:46.808 INFO  com.fugui.train.batch.config.BatchApplication     :51   restartedMain [32m                [0;39m Starting BatchApplication using Java 17.0.11 with PID 28792 (E:\Desktop\projectCode\12306\train\batch\target\classes started by 28413 in E:\Desktop\projectCode\12306\train)
+2024-07-27 22:37:46.809 INFO  com.fugui.train.batch.config.BatchApplication     :630  restartedMain [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-07-27 22:37:46.995 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   restartedMain [32m                [0;39m No MyBatis mapper was found in '[com.fugui.train.batch.mapper]' package. Please check your configuration.
+2024-07-27 22:37:47.006 INFO  o.springframework.cloud.context.scope.GenericScope:282  restartedMain [32m                [0;39m BeanFactory id=cb4a6480-c989-3556-8fc0-d51734467b94
+2024-07-27 22:37:47.014 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:409  restartedMain [32m                [0;39m Bean 'com.fugui.train.batch.feign.businessFeign' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-27 22:37:47.094 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  restartedMain [32m                [0;39m Tomcat initialized with port(s): 8003 (http)
+2024-07-27 22:37:47.094 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Initializing ProtocolHandler ["http-nio-8003"]
+2024-07-27 22:37:47.095 INFO  org.apache.catalina.core.StandardService          :173  restartedMain [32m                [0;39m Starting service [Tomcat]
+2024-07-27 22:37:47.095 INFO  org.apache.catalina.core.StandardEngine           :173  restartedMain [32m                [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-07-27 22:37:47.115 INFO  o.a.c.c.C.[Tomcat].[localhost].[/batch]           :173  restartedMain [32m                [0;39m Initializing Spring embedded WebApplicationContext
+2024-07-27 22:37:47.116 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  restartedMain [32m                [0;39m Root WebApplicationContext: initialization completed in 305 ms
+2024-07-27 22:37:47.146 WARN  o.s.core.LocalVariableTableParameterNameDiscoverer:123  restartedMain [32m                [0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.fugui.train.batch.config.SchedulerConfig
+2024-07-27 22:37:47.152 INFO  org.quartz.impl.StdSchedulerFactory               :1220 restartedMain [32m                [0;39m Using default implementation for ThreadExecutor
+2024-07-27 22:37:47.153 INFO  org.quartz.core.SchedulerSignalerImpl             :61   restartedMain [32m                [0;39m Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2024-07-27 22:37:47.154 INFO  org.quartz.core.QuartzScheduler                   :229  restartedMain [32m                [0;39m Quartz Scheduler v.2.3.2 created.
+2024-07-27 22:37:47.154 INFO  com.zaxxer.hikari.HikariDataSource                :110  restartedMain [32m                [0;39m HikariPool-3 - Starting...
+2024-07-27 22:37:47.165 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  restartedMain [32m                [0;39m HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@29f1d823
+2024-07-27 22:37:47.166 INFO  com.zaxxer.hikari.HikariDataSource                :123  restartedMain [32m                [0;39m HikariPool-3 - Start completed.
+2024-07-27 22:37:47.166 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :672  restartedMain [32m                [0;39m Using db table-based data access locking (synchronization).
+2024-07-27 22:37:47.166 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :145  restartedMain [32m                [0;39m JobStoreCMT initialized.
+2024-07-27 22:37:47.166 INFO  org.quartz.core.QuartzScheduler                   :294  restartedMain [32m                [0;39m Scheduler meta-data: Quartz Scheduler (v2.3.2) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is not clustered.
+
+2024-07-27 22:37:47.166 INFO  org.quartz.impl.StdSchedulerFactory               :1374 restartedMain [32m                [0;39m Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2024-07-27 22:37:47.166 INFO  org.quartz.impl.StdSchedulerFactory               :1378 restartedMain [32m                [0;39m Quartz scheduler version: 2.3.2
+2024-07-27 22:37:47.167 INFO  org.quartz.core.QuartzScheduler                   :2293 restartedMain [32m                [0;39m JobFactory set to: com.fugui.train.batch.config.MyJobFactory@2634bfcf
+2024-07-27 22:37:47.238 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   restartedMain [32m                [0;39m LiveReload server is running on port 35729
+2024-07-27 22:37:47.402 WARN  o.s.core.LocalVariableTableParameterNameDiscoverer:123  restartedMain [32m                [0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.github.pagehelper.autoconfigure.PageHelperStandardProperties
+2024-07-27 22:37:47.404 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :750  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Starting Quartz Scheduler now, after delay of 2 seconds
+2024-07-27 22:37:47.433 WARN  o.s.b.a.freemarker.FreeMarkerAutoConfiguration    :67   restartedMain [32m                [0;39m Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.check-template-location=false)
+2024-07-27 22:37:47.557 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:81   restartedMain [32m                [0;39m Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-07-27 22:37:47.571 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Starting ProtocolHandler ["http-nio-8003"]
+2024-07-27 22:37:47.574 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  restartedMain [32m                [0;39m Tomcat started on port(s): 8003 (http) with context path '/batch'
+2024-07-27 22:37:47.632 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :734  restartedMain [32m                [0;39m Will start Quartz Scheduler [schedulerFactoryBean] in 2 seconds
+2024-07-27 22:37:47.635 INFO  com.fugui.train.batch.config.BatchApplication     :57   restartedMain [32m                [0;39m Started BatchApplication in 0.916 seconds (process running for 521.276)
+2024-07-27 22:37:47.636 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   restartedMain [32m                [0;39m Condition evaluation unchanged
+2024-07-27 22:37:47.636 INFO  com.fugui.train.batch.config.BatchApplication     :23   restartedMain [32m                [0;39m 启动成功
+2024-07-27 22:37:47.637 INFO  com.fugui.train.batch.config.BatchApplication     :24   restartedMain [32m                [0;39m 端口号：http://127.0.0.1:8003/batch
+2024-07-27 22:37:49.638 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :750  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Starting Quartz Scheduler now, after delay of 2 seconds
+2024-07-27 22:37:49.643 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :866  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Freed 0 triggers from 'acquired' / 'blocked' state.
+2024-07-27 22:37:49.645 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :876  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2024-07-27 22:37:49.645 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :889  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Recovery complete.
+2024-07-27 22:37:49.645 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :896  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Removed 0 'complete' triggers.
+2024-07-27 22:37:49.646 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :901  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Removed 0 stale fired job entries.
+2024-07-27 22:37:49.646 INFO  org.quartz.core.QuartzScheduler                   :547  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+2024-07-27 22:40:34.110 INFO  org.quartz.core.QuartzScheduler                   :585  SpringApplicationShutdownHook [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2024-07-27 22:40:34.124 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :847  SpringApplicationShutdownHook [32m                [0;39m Shutting down Quartz Scheduler
+2024-07-27 22:40:34.124 INFO  org.quartz.core.QuartzScheduler                   :666  SpringApplicationShutdownHook [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutting down.
+2024-07-27 22:40:34.124 INFO  org.quartz.core.QuartzScheduler                   :585  SpringApplicationShutdownHook [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2024-07-27 22:40:34.124 INFO  org.quartz.core.QuartzScheduler                   :740  SpringApplicationShutdownHook [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutdown complete.
+2024-07-27 22:40:34.124 INFO  com.zaxxer.hikari.HikariDataSource                :350  SpringApplicationShutdownHook [32m                [0;39m HikariPool-3 - Shutdown initiated...
+2024-07-27 22:40:34.129 INFO  com.zaxxer.hikari.HikariDataSource                :352  SpringApplicationShutdownHook [32m                [0;39m HikariPool-3 - Shutdown completed.
+2024-07-27 22:40:41.235 INFO  o.s.b.devtools.restart.RestartApplicationListener :88   main [32m                [0;39m Restart disabled due to an agent-based reloader being active
+2024-07-27 22:40:42.178 INFO  org.hibernate.validator.internal.util.Version     :21   background-preinit [32m                [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2024-07-27 22:40:42.661 INFO  com.fugui.train.batch.config.BatchApplication     :51   main [32m                [0;39m Starting BatchApplication using Java 17.0.11 with PID 8804 (E:\Desktop\projectCode\12306\train\batch\target\classes started by 28413 in E:\Desktop\projectCode\12306\train)
+2024-07-27 22:40:42.662 INFO  com.fugui.train.batch.config.BatchApplication     :630  main [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-07-27 22:40:42.785 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  main [32m                [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-27 22:40:42.785 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  main [32m                [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-27 22:40:44.160 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   main [32m                [0;39m No MyBatis mapper was found in '[com.fugui.train.batch.mapper]' package. Please check your configuration.
+2024-07-27 22:40:44.387 INFO  o.springframework.cloud.context.scope.GenericScope:282  main [32m                [0;39m BeanFactory id=cb4a6480-c989-3556-8fc0-d51734467b94
+2024-07-27 22:40:44.466 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:409  main [32m                [0;39m Bean 'com.fugui.train.batch.feign.businessFeign' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-27 22:40:45.706 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  main [32m                [0;39m Tomcat initialized with port(s): 8003 (http)
+2024-07-27 22:40:45.744 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  main [32m                [0;39m Initializing ProtocolHandler ["http-nio-8003"]
+2024-07-27 22:40:45.745 INFO  org.apache.catalina.core.StandardService          :173  main [32m                [0;39m Starting service [Tomcat]
+2024-07-27 22:40:45.745 INFO  org.apache.catalina.core.StandardEngine           :173  main [32m                [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-07-27 22:40:45.863 INFO  o.a.c.c.C.[Tomcat].[localhost].[/batch]           :173  main [32m                [0;39m Initializing Spring embedded WebApplicationContext
+2024-07-27 22:40:45.865 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  main [32m                [0;39m Root WebApplicationContext: initialization completed in 3077 ms
+2024-07-27 22:40:46.035 WARN  o.s.core.LocalVariableTableParameterNameDiscoverer:123  main [32m                [0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.fugui.train.batch.config.SchedulerConfig
+2024-07-27 22:40:46.156 INFO  org.quartz.impl.StdSchedulerFactory               :1220 main [32m                [0;39m Using default implementation for ThreadExecutor
+2024-07-27 22:40:46.181 INFO  org.quartz.core.SchedulerSignalerImpl             :61   main [32m                [0;39m Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2024-07-27 22:40:46.182 INFO  org.quartz.core.QuartzScheduler                   :229  main [32m                [0;39m Quartz Scheduler v.2.3.2 created.
+2024-07-27 22:40:46.195 INFO  com.zaxxer.hikari.HikariDataSource                :110  main [32m                [0;39m HikariPool-1 - Starting...
+2024-07-27 22:40:46.554 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  main [32m                [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@f8d7fe8
+2024-07-27 22:40:46.557 INFO  com.zaxxer.hikari.HikariDataSource                :123  main [32m                [0;39m HikariPool-1 - Start completed.
+2024-07-27 22:40:46.572 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :672  main [32m                [0;39m Using db table-based data access locking (synchronization).
+2024-07-27 22:40:46.576 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :145  main [32m                [0;39m JobStoreCMT initialized.
+2024-07-27 22:40:46.578 INFO  org.quartz.core.QuartzScheduler                   :294  main [32m                [0;39m Scheduler meta-data: Quartz Scheduler (v2.3.2) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is not clustered.
+
+2024-07-27 22:40:46.579 INFO  org.quartz.impl.StdSchedulerFactory               :1374 main [32m                [0;39m Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2024-07-27 22:40:46.579 INFO  org.quartz.impl.StdSchedulerFactory               :1378 main [32m                [0;39m Quartz scheduler version: 2.3.2
+2024-07-27 22:40:46.579 INFO  org.quartz.core.QuartzScheduler                   :2293 main [32m                [0;39m JobFactory set to: com.fugui.train.batch.config.MyJobFactory@76c37166
+2024-07-27 22:40:46.846 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   main [32m                [0;39m Unable to start LiveReload server
+2024-07-27 22:40:47.570 WARN  o.s.core.LocalVariableTableParameterNameDiscoverer:123  main [32m                [0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.github.pagehelper.autoconfigure.PageHelperStandardProperties
+2024-07-27 22:40:47.801 WARN  o.s.b.a.freemarker.FreeMarkerAutoConfiguration    :67   main [32m                [0;39m Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.check-template-location=false)
+2024-07-27 22:40:47.989 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:81   main [32m                [0;39m Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-07-27 22:40:48.065 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  main [32m                [0;39m Starting ProtocolHandler ["http-nio-8003"]
+2024-07-27 22:40:48.109 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  main [32m                [0;39m Tomcat started on port(s): 8003 (http) with context path '/batch'
+2024-07-27 22:40:48.164 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :734  main [32m                [0;39m Will start Quartz Scheduler [schedulerFactoryBean] in 2 seconds
+2024-07-27 22:40:48.172 INFO  com.fugui.train.batch.config.BatchApplication     :57   main [32m                [0;39m Started BatchApplication in 6.989 seconds (process running for 9.723)
+2024-07-27 22:40:48.176 INFO  com.fugui.train.batch.config.BatchApplication     :23   main [32m                [0;39m 启动成功
+2024-07-27 22:40:48.176 INFO  com.fugui.train.batch.config.BatchApplication     :24   main [32m                [0;39m 端口号：http://127.0.0.1:8003/batch
+2024-07-27 22:40:50.172 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :750  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Starting Quartz Scheduler now, after delay of 2 seconds
+2024-07-27 22:40:50.244 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :866  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Freed 0 triggers from 'acquired' / 'blocked' state.
+2024-07-27 22:40:50.247 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :876  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2024-07-27 22:40:50.247 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :889  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Recovery complete.
+2024-07-27 22:40:50.248 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :896  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Removed 0 'complete' triggers.
+2024-07-27 22:40:50.249 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :901  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Removed 0 stale fired job entries.
+2024-07-27 22:40:50.251 INFO  org.quartz.core.QuartzScheduler                   :547  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+2024-07-27 22:41:23.079 INFO  o.a.c.c.C.[Tomcat].[localhost].[/batch]           :173  http-nio-8003-exec-1 [32m                [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-27 22:41:23.079 INFO  org.springframework.web.servlet.DispatcherServlet :525  http-nio-8003-exec-1 [32m                [0;39m Initializing Servlet 'dispatcherServlet'
+2024-07-27 22:41:23.081 INFO  org.springframework.web.servlet.DispatcherServlet :547  http-nio-8003-exec-1 [32m                [0;39m Completed initialization in 2 ms
+2024-07-27 22:42:29.897 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   http-nio-8003-exec-6 [32m                [0;39m No MyBatis mapper was found in '[com.fugui.train.batch.mapper]' package. Please check your configuration.
+2024-07-27 23:15:10.507 INFO  org.quartz.core.QuartzScheduler                   :585  SpringApplicationShutdownHook [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2024-07-27 23:15:10.553 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :847  SpringApplicationShutdownHook [32m                [0;39m Shutting down Quartz Scheduler
+2024-07-27 23:15:10.554 INFO  org.quartz.core.QuartzScheduler                   :666  SpringApplicationShutdownHook [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutting down.
+2024-07-27 23:15:10.554 INFO  org.quartz.core.QuartzScheduler                   :585  SpringApplicationShutdownHook [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2024-07-27 23:15:10.554 INFO  org.quartz.core.QuartzScheduler                   :740  SpringApplicationShutdownHook [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutdown complete.
+2024-07-27 23:15:10.555 INFO  com.zaxxer.hikari.HikariDataSource                :350  SpringApplicationShutdownHook [32m                [0;39m HikariPool-1 - Shutdown initiated...
+2024-07-27 23:15:10.560 INFO  com.zaxxer.hikari.HikariDataSource                :352  SpringApplicationShutdownHook [32m                [0;39m HikariPool-1 - Shutdown completed.
+2024-07-27 23:28:32.269 INFO  o.s.b.devtools.restart.RestartApplicationListener :88   main [32m                [0;39m Restart disabled due to an agent-based reloader being active
+2024-07-27 23:28:33.158 INFO  org.hibernate.validator.internal.util.Version     :21   background-preinit [32m                [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2024-07-27 23:28:33.292 INFO  com.fugui.train.batch.config.BatchApplication     :51   main [32m                [0;39m Starting BatchApplication using Java 17.0.11 with PID 22972 (E:\Desktop\projectCode\12306\train\batch\target\classes started by 28413 in E:\Desktop\projectCode\12306\train)
+2024-07-27 23:28:33.294 INFO  com.fugui.train.batch.config.BatchApplication     :630  main [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-07-27 23:28:33.386 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  main [32m                [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-27 23:28:33.386 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  main [32m                [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-27 23:28:34.452 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   main [32m                [0;39m No MyBatis mapper was found in '[com.fugui.train.batch.mapper]' package. Please check your configuration.
+2024-07-27 23:28:34.633 INFO  o.springframework.cloud.context.scope.GenericScope:282  main [32m                [0;39m BeanFactory id=cb4a6480-c989-3556-8fc0-d51734467b94
+2024-07-27 23:28:34.706 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:409  main [32m                [0;39m Bean 'com.fugui.train.batch.feign.businessFeign' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-07-27 23:28:35.662 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  main [32m                [0;39m Tomcat initialized with port(s): 8003 (http)
+2024-07-27 23:28:35.677 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  main [32m                [0;39m Initializing ProtocolHandler ["http-nio-8003"]
+2024-07-27 23:28:35.678 INFO  org.apache.catalina.core.StandardService          :173  main [32m                [0;39m Starting service [Tomcat]
+2024-07-27 23:28:35.678 INFO  org.apache.catalina.core.StandardEngine           :173  main [32m                [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-07-27 23:28:35.757 INFO  o.a.c.c.C.[Tomcat].[localhost].[/batch]           :173  main [32m                [0;39m Initializing Spring embedded WebApplicationContext
+2024-07-27 23:28:35.758 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  main [32m                [0;39m Root WebApplicationContext: initialization completed in 2370 ms
+2024-07-27 23:28:35.908 WARN  o.s.core.LocalVariableTableParameterNameDiscoverer:123  main [32m                [0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.fugui.train.batch.config.SchedulerConfig
+2024-07-27 23:28:35.960 INFO  org.quartz.impl.StdSchedulerFactory               :1220 main [32m                [0;39m Using default implementation for ThreadExecutor
+2024-07-27 23:28:35.974 INFO  org.quartz.core.SchedulerSignalerImpl             :61   main [32m                [0;39m Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2024-07-27 23:28:35.975 INFO  org.quartz.core.QuartzScheduler                   :229  main [32m                [0;39m Quartz Scheduler v.2.3.2 created.
+2024-07-27 23:28:35.988 INFO  com.zaxxer.hikari.HikariDataSource                :110  main [32m                [0;39m HikariPool-1 - Starting...
+2024-07-27 23:28:36.225 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  main [32m                [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@28c7fd9d
+2024-07-27 23:28:36.228 INFO  com.zaxxer.hikari.HikariDataSource                :123  main [32m                [0;39m HikariPool-1 - Start completed.
+2024-07-27 23:28:36.240 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :672  main [32m                [0;39m Using db table-based data access locking (synchronization).
+2024-07-27 23:28:36.243 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :145  main [32m                [0;39m JobStoreCMT initialized.
+2024-07-27 23:28:36.244 INFO  org.quartz.core.QuartzScheduler                   :294  main [32m                [0;39m Scheduler meta-data: Quartz Scheduler (v2.3.2) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is not clustered.
+
+2024-07-27 23:28:36.244 INFO  org.quartz.impl.StdSchedulerFactory               :1374 main [32m                [0;39m Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2024-07-27 23:28:36.244 INFO  org.quartz.impl.StdSchedulerFactory               :1378 main [32m                [0;39m Quartz scheduler version: 2.3.2
+2024-07-27 23:28:36.244 INFO  org.quartz.core.QuartzScheduler                   :2293 main [32m                [0;39m JobFactory set to: com.fugui.train.batch.config.MyJobFactory@903c13
+2024-07-27 23:28:36.475 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   main [32m                [0;39m LiveReload server is running on port 35729
+2024-07-27 23:28:37.053 WARN  o.s.core.LocalVariableTableParameterNameDiscoverer:123  main [32m                [0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.github.pagehelper.autoconfigure.PageHelperStandardProperties
+2024-07-27 23:28:37.227 WARN  o.s.b.a.freemarker.FreeMarkerAutoConfiguration    :67   main [32m                [0;39m Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.check-template-location=false)
+2024-07-27 23:28:37.404 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:81   main [32m                [0;39m Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-07-27 23:28:37.458 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  main [32m                [0;39m Starting ProtocolHandler ["http-nio-8003"]
+2024-07-27 23:28:37.490 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  main [32m                [0;39m Tomcat started on port(s): 8003 (http) with context path '/batch'
+2024-07-27 23:28:37.552 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :734  main [32m                [0;39m Will start Quartz Scheduler [schedulerFactoryBean] in 2 seconds
+2024-07-27 23:28:37.559 INFO  com.fugui.train.batch.config.BatchApplication     :57   main [32m                [0;39m Started BatchApplication in 5.324 seconds (process running for 8.412)
+2024-07-27 23:28:37.562 INFO  com.fugui.train.batch.config.BatchApplication     :23   main [32m                [0;39m 启动成功
+2024-07-27 23:28:37.562 INFO  com.fugui.train.batch.config.BatchApplication     :24   main [32m                [0;39m 端口号：http://127.0.0.1:8003/batch
+2024-07-27 23:28:39.557 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :750  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Starting Quartz Scheduler now, after delay of 2 seconds
+2024-07-27 23:28:39.601 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :866  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Freed 0 triggers from 'acquired' / 'blocked' state.
+2024-07-27 23:28:39.604 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :876  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2024-07-27 23:28:39.604 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :889  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Recovery complete.
+2024-07-27 23:28:39.604 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :896  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Removed 0 'complete' triggers.
+2024-07-27 23:28:39.605 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :901  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Removed 0 stale fired job entries.
+2024-07-27 23:28:39.607 INFO  org.quartz.core.QuartzScheduler                   :547  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.

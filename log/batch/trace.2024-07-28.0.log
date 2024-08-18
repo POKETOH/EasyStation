@@ -1,0 +1,8 @@
+2024-07-28 00:14:25.211 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   File Watcher [32m                [0;39m No MyBatis mapper was found in '[com.fugui.train.batch.mapper]' package. Please check your configuration.
+2024-07-28 10:31:39.379 INFO  org.quartz.core.QuartzScheduler                   :585  SpringApplicationShutdownHook [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2024-07-28 10:31:39.513 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :847  SpringApplicationShutdownHook [32m                [0;39m Shutting down Quartz Scheduler
+2024-07-28 10:31:39.514 INFO  org.quartz.core.QuartzScheduler                   :666  SpringApplicationShutdownHook [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutting down.
+2024-07-28 10:31:39.515 INFO  org.quartz.core.QuartzScheduler                   :585  SpringApplicationShutdownHook [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2024-07-28 10:31:39.515 INFO  org.quartz.core.QuartzScheduler                   :740  SpringApplicationShutdownHook [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutdown complete.
+2024-07-28 10:31:39.516 INFO  com.zaxxer.hikari.HikariDataSource                :350  SpringApplicationShutdownHook [32m                [0;39m HikariPool-1 - Shutdown initiated...
+2024-07-28 10:31:39.525 INFO  com.zaxxer.hikari.HikariDataSource                :352  SpringApplicationShutdownHook [32m                [0;39m HikariPool-1 - Shutdown completed.

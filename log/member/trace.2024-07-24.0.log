@@ -1,0 +1,82 @@
+2024-07-24 14:46:46.379 INFO  o.s.b.devtools.restart.RestartApplicationListener :88   main [32m                [0;39m Restart disabled due to an agent-based reloader being active
+2024-07-24 14:46:46.909 INFO  org.hibernate.validator.internal.util.Version     :21   background-preinit [32m                [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2024-07-24 14:46:47.007 INFO  com.fugui.train.member.config.MemberApplication   :51   main [32m                [0;39m Starting MemberApplication using Java 17.0.11 with PID 10260 (E:\Desktop\projectCode\12306\train\member\target\classes started by 28413 in E:\Desktop\projectCode\12306\train)
+2024-07-24 14:46:47.009 INFO  com.fugui.train.member.config.MemberApplication   :630  main [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-07-24 14:46:47.074 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  main [32m                [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-24 14:46:47.075 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  main [32m                [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-24 14:46:48.098 INFO  o.springframework.cloud.context.scope.GenericScope:282  main [32m                [0;39m BeanFactory id=ec4307a3-751f-31ab-84d6-a77c678c84c4
+2024-07-24 14:46:48.993 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  main [32m                [0;39m Tomcat initialized with port(s): 8001 (http)
+2024-07-24 14:46:49.008 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  main [32m                [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2024-07-24 14:46:49.009 INFO  org.apache.catalina.core.StandardService          :173  main [32m                [0;39m Starting service [Tomcat]
+2024-07-24 14:46:49.009 INFO  org.apache.catalina.core.StandardEngine           :173  main [32m                [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-07-24 14:46:49.086 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  main [32m                [0;39m Initializing Spring embedded WebApplicationContext
+2024-07-24 14:46:49.088 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  main [32m                [0;39m Root WebApplicationContext: initialization completed in 2012 ms
+2024-07-24 14:46:50.033 WARN  o.s.core.LocalVariableTableParameterNameDiscoverer:123  main [32m                [0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.github.pagehelper.autoconfigure.PageHelperStandardProperties
+2024-07-24 14:46:50.224 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   main [32m                [0;39m LiveReload server is running on port 35729
+2024-07-24 14:46:50.365 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  main [32m                [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2024-07-24 14:46:50.440 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  main [32m                [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2024-07-24 14:46:50.521 INFO  com.fugui.train.member.config.MemberApplication   :57   main [32m                [0;39m Started MemberApplication in 4.174 seconds (process running for 7.466)
+2024-07-24 14:46:50.524 INFO  com.fugui.train.member.config.MemberApplication   :21   main [32m                [0;39m 启动成功
+2024-07-24 14:46:50.525 INFO  com.fugui.train.member.config.MemberApplication   :22   main [32m                [0;39m 端口号：http://127.0.0.1:8001/member
+2024-07-24 14:58:14.881 INFO  o.s.b.devtools.restart.RestartApplicationListener :88   main [32m                [0;39m Restart disabled due to an agent-based reloader being active
+2024-07-24 14:58:15.817 INFO  org.hibernate.validator.internal.util.Version     :21   background-preinit [32m                [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2024-07-24 14:58:16.261 INFO  com.fugui.train.member.config.MemberApplication   :51   main [32m                [0;39m Starting MemberApplication using Java 17.0.11 with PID 40520 (E:\Desktop\projectCode\12306\train\member\target\classes started by 28413 in E:\Desktop\projectCode\12306\train)
+2024-07-24 14:58:16.262 INFO  com.fugui.train.member.config.MemberApplication   :630  main [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-07-24 14:58:16.404 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  main [32m                [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-24 14:58:16.404 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  main [32m                [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-24 14:58:18.139 INFO  o.springframework.cloud.context.scope.GenericScope:282  main [32m                [0;39m BeanFactory id=ec4307a3-751f-31ab-84d6-a77c678c84c4
+2024-07-24 14:58:19.438 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  main [32m                [0;39m Tomcat initialized with port(s): 8001 (http)
+2024-07-24 14:58:19.485 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  main [32m                [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2024-07-24 14:58:19.487 INFO  org.apache.catalina.core.StandardService          :173  main [32m                [0;39m Starting service [Tomcat]
+2024-07-24 14:58:19.487 INFO  org.apache.catalina.core.StandardEngine           :173  main [32m                [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-07-24 14:58:19.612 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  main [32m                [0;39m Initializing Spring embedded WebApplicationContext
+2024-07-24 14:58:19.614 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  main [32m                [0;39m Root WebApplicationContext: initialization completed in 3207 ms
+2024-07-24 14:58:20.854 WARN  o.s.core.LocalVariableTableParameterNameDiscoverer:123  main [32m                [0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.github.pagehelper.autoconfigure.PageHelperStandardProperties
+2024-07-24 14:58:21.091 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   main [32m                [0;39m Unable to start LiveReload server
+2024-07-24 14:58:21.279 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  main [32m                [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2024-07-24 14:58:21.311 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  main [32m                [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2024-07-24 14:58:21.400 INFO  com.fugui.train.member.config.MemberApplication   :57   main [32m                [0;39m Started MemberApplication in 6.569 seconds (process running for 9.593)
+2024-07-24 14:58:21.405 INFO  com.fugui.train.member.config.MemberApplication   :21   main [32m                [0;39m 启动成功
+2024-07-24 14:58:21.406 INFO  com.fugui.train.member.config.MemberApplication   :22   main [32m                [0;39m 端口号：http://127.0.0.1:8001/member
+2024-07-24 16:51:19.456 INFO  org.hibernate.validator.internal.util.Version     :21   background-preinit [32m                [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2024-07-24 16:51:19.495 INFO  com.fugui.train.member.config.MemberApplication   :51   restartedMain [32m                [0;39m Starting MemberApplication using Java 17.0.11 with PID 16236 (E:\Desktop\projectCode\12306\train\member\target\classes started by 28413 in E:\Desktop\projectCode\12306\train)
+2024-07-24 16:51:19.497 INFO  com.fugui.train.member.config.MemberApplication   :630  restartedMain [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-07-24 16:51:19.561 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  restartedMain [32m                [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-24 16:51:19.562 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  restartedMain [32m                [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-24 16:51:20.252 INFO  o.springframework.cloud.context.scope.GenericScope:282  restartedMain [32m                [0;39m BeanFactory id=ec4307a3-751f-31ab-84d6-a77c678c84c4
+2024-07-24 16:51:20.896 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  restartedMain [32m                [0;39m Tomcat initialized with port(s): 8001 (http)
+2024-07-24 16:51:20.904 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2024-07-24 16:51:20.904 INFO  org.apache.catalina.core.StandardService          :173  restartedMain [32m                [0;39m Starting service [Tomcat]
+2024-07-24 16:51:20.904 INFO  org.apache.catalina.core.StandardEngine           :173  restartedMain [32m                [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-07-24 16:51:20.960 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  restartedMain [32m                [0;39m Initializing Spring embedded WebApplicationContext
+2024-07-24 16:51:20.961 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  restartedMain [32m                [0;39m Root WebApplicationContext: initialization completed in 1399 ms
+2024-07-24 16:51:21.545 WARN  o.s.core.LocalVariableTableParameterNameDiscoverer:123  restartedMain [32m                [0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.github.pagehelper.autoconfigure.PageHelperStandardProperties
+2024-07-24 16:51:21.674 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   restartedMain [32m                [0;39m Unable to start LiveReload server
+2024-07-24 16:51:21.800 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2024-07-24 16:51:21.821 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  restartedMain [32m                [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2024-07-24 16:51:21.912 INFO  com.fugui.train.member.config.MemberApplication   :57   restartedMain [32m                [0;39m Started MemberApplication in 2.847 seconds (process running for 3.52)
+2024-07-24 16:51:21.915 INFO  com.fugui.train.member.config.MemberApplication   :21   restartedMain [32m                [0;39m 启动成功
+2024-07-24 16:51:21.916 INFO  com.fugui.train.member.config.MemberApplication   :22   restartedMain [32m                [0;39m 端口号：http://127.0.0.1:8001/member
+2024-07-24 17:01:33.596 INFO  o.s.b.devtools.restart.RestartApplicationListener :88   main [32m                [0;39m Restart disabled due to an agent-based reloader being active
+2024-07-24 17:01:34.451 INFO  org.hibernate.validator.internal.util.Version     :21   background-preinit [32m                [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2024-07-24 17:01:34.852 INFO  com.fugui.train.member.config.MemberApplication   :51   main [32m                [0;39m Starting MemberApplication using Java 17.0.11 with PID 27884 (E:\Desktop\projectCode\12306\train\member\target\classes started by 28413 in E:\Desktop\projectCode\12306\train)
+2024-07-24 17:01:34.853 INFO  com.fugui.train.member.config.MemberApplication   :630  main [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-07-24 17:01:34.948 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  main [32m                [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-24 17:01:34.948 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  main [32m                [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-24 17:01:36.546 INFO  o.springframework.cloud.context.scope.GenericScope:282  main [32m                [0;39m BeanFactory id=ec4307a3-751f-31ab-84d6-a77c678c84c4
+2024-07-24 17:01:37.820 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  main [32m                [0;39m Tomcat initialized with port(s): 8001 (http)
+2024-07-24 17:01:37.868 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  main [32m                [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2024-07-24 17:01:37.869 INFO  org.apache.catalina.core.StandardService          :173  main [32m                [0;39m Starting service [Tomcat]
+2024-07-24 17:01:37.870 INFO  org.apache.catalina.core.StandardEngine           :173  main [32m                [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-07-24 17:01:37.994 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  main [32m                [0;39m Initializing Spring embedded WebApplicationContext
+2024-07-24 17:01:37.995 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  main [32m                [0;39m Root WebApplicationContext: initialization completed in 3045 ms
+2024-07-24 17:01:39.262 WARN  o.s.core.LocalVariableTableParameterNameDiscoverer:123  main [32m                [0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.github.pagehelper.autoconfigure.PageHelperStandardProperties
+2024-07-24 17:01:39.533 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   main [32m                [0;39m Unable to start LiveReload server
+2024-07-24 17:01:39.763 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  main [32m                [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2024-07-24 17:01:39.805 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  main [32m                [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2024-07-24 17:01:39.898 INFO  com.fugui.train.member.config.MemberApplication   :57   main [32m                [0;39m Started MemberApplication in 6.348 seconds (process running for 8.866)
+2024-07-24 17:01:39.902 INFO  com.fugui.train.member.config.MemberApplication   :21   main [32m                [0;39m 启动成功
+2024-07-24 17:01:39.903 INFO  com.fugui.train.member.config.MemberApplication   :22   main [32m                [0;39m 端口号：http://127.0.0.1:8001/member
+2024-07-24 20:32:49.710 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  http-nio-8001-exec-1 [32m                [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-24 20:32:49.721 INFO  org.springframework.web.servlet.DispatcherServlet :525  http-nio-8001-exec-1 [32m                [0;39m Initializing Servlet 'dispatcherServlet'
+2024-07-24 20:32:49.746 INFO  org.springframework.web.servlet.DispatcherServlet :547  http-nio-8001-exec-1 [32m                [0;39m Completed initialization in 24 ms

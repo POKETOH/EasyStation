@@ -1,0 +1,1 @@
+2024-08-12 19:49:43.723 INFO  i.s.core.rpc.processor.client.RmUndoLogProcessor  :49   rpcDispatch_RMROLE_1_3_24 [32m                [0;39m rm handle undo log process:UndoLogDeleteRequest{resourceId='jdbc:mysql://localhost/train_member', saveDays=7, branchType=AT}

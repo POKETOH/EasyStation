@@ -1,0 +1,4 @@
+toJson(SeatColEnum.class, bufferObject, bufferArray);
+toJson(SeatTypeEnum.class, bufferObject, bufferArray);
+toJson(TrainTypeEnum.class, bufferObject, bufferArray);
+toJson(PassengerTypeEnum.class, bufferObject, bufferArray);

@@ -1,0 +1,4 @@
+com\fugui\train\common\resp\PageResp.class
+com\fugui\train\common\util\JwtUtil.class
+com\fugui\train\common\util\SnowUtil.class
+com\fugui\train\common\req\PageReq.class

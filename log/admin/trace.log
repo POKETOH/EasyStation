@@ -1,0 +1,4 @@
+2024-08-13 13:53:31.949 WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder  :102  Thread-12 [32m                [0;39m [HttpClientBeanHolder] Start destroying common HttpClient
+2024-08-13 13:53:31.951 WARN  com.alibaba.nacos.common.notify.NotifyCenter      :136  Thread-18 [32m                [0;39m [NotifyCenter] Start destroying Publisher
+2024-08-13 13:53:31.965 WARN  com.alibaba.nacos.common.notify.NotifyCenter      :153  Thread-18 [32m                [0;39m [NotifyCenter] Destruction of the end
+2024-08-13 13:53:32.118 WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder  :111  Thread-12 [32m                [0;39m [HttpClientBeanHolder] Destruction of the end
